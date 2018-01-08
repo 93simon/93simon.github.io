@@ -3939,11 +3939,12 @@
 }
 .features h4 {
 	color: rgba(255, 255, 255, 0.55);
+	    font-size: medium;
 }
-.features .fa-fw {
+/*.features .fa-fw {
 	opacity: 1;
 	color: white;
-}
+}*/
 
 li {
   list-style-type: none;
@@ -3985,15 +3986,30 @@ h1.name {
 }
 
 
+.vjspot > section > .image {
+    
+    width: 100em;
+}
+
+.features a:hover {
+/* color: #b74e91;*/
+}
+
+
+#two h6 {
+	margin-top: 1em;
+}
 
 
 
+/*#two .features > section:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.05);	
+}
 
-
-
-
-
-
+#two .features > section:nth-child(3) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+	*/
 
 
 
