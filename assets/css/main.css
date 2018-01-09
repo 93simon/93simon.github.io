@@ -3957,9 +3957,9 @@ li {
 	margin: 0;
 }
 
-h1.name {
+h1.name, .name {
 	font-family: 'Pacifico', cursive;
-	font-weight: normal;
+	font-weight: normal !important;
 	font-size: 5em;
     margin: 0;
 }
