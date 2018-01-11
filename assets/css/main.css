@@ -3999,7 +3999,7 @@ h1.name, .name {
 }
 
 
-#two h6 {
+#two h6, #three h6  {
 	margin-top: 1em;
 }
 
