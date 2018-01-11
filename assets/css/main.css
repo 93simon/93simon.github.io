@@ -4003,6 +4003,11 @@ h1.name, .name {
 	margin-top: 1em;
 }
 
+#sidebar nav a.active {
+/*font-size: 1em;
+      transition: 800ms cubic-bezier(0.55, 0, 0.1, 1); */
+}
+
 
 
 /*#two .features > section:nth-child(2) {
