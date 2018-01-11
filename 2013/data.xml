@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rmbdata>
+	<featureNum>5</featureNum>
+	<!--feature>
+		<text><![CDATA[ 
+Featured Project
+	Sixth Avenue Wine Seller (Seattle, Pacific Place)
+
+A friend asked me to program her mom's wine store located on the 3rd floor of Pacific Place Mall in downtown Seattle.   As with any website I do, I was given a few screenshots to work with and I programmed this from scratch. Although the version I wanted never made it online (my version had a nice audio loop to keep you entertained) - I was still happy with the execution.  The site was meant to play out slowly, elegantly, and with class so i lengthened the animations and slowed down the transitions with a high FPS for the final site.
+
+
+ ]]></text>
+		<type> Actionsctipt,Animation,Scripting, </type>
+	</feature-->
+	<feature>
+		<text><![CDATA[Featured Project:
+Houston Zoo
+As the sole developer for the Houston Zoo's new website, me and one designer updated the Houston Zoo's online presence.  From social media to a full responsive layout, i developed, maintained, and managed a highly customized wordpress blog for the team at the Houston Zoo.  
+
+ ]]></text>
+		<type> Mobile, ocial Media,Devloper, </type>
+	</feature>
+	<profile><![CDATA[ Simon Silverio.
+31 years young.
+Born and raised in the 206.
+I graduated Sacred Heart in 1995, O'Dea High School in 1999, and attended the University of Washington with an emphasis on English.  I am currently a freelance front end, mobile, and social media developer.
+I began as a Java/C# programmer and have refined my development skills towards interactive advertising, streaming video, and web development.  
+For fun i like to produce live music with Ableton, dj with Serato, program in Flash, and learn new things daily.
+
+I am a programmer by day,
+dj by night, and an 
+amateur comedian.
+
+ ]]></profile>
+ 	<clientRow1>
+		<client value="1521">
+			<url value="http://www.1521second.com" />
+			<type value="Animation, Build, Scripting" />
+			<images num="3" />
+		</client>
+		<client value="2200">
+			<url value="http://www.thedigitalkid.com/2200" />
+			<type value="Animation, Build, Scripting" />
+			<images num="5" />
+		</client>
+		<client value="Atlas Rich Media">
+			<url value="http://www.atlasrichmedia.com" />
+			<type value="Full Time Employee: Rich Media Engineer" />
+			<images num="1" />
+		</client>
+		<!--client value="City of Seattle">
+			<url value="http://www.thedigitalkid.com/compPlan" />
+			<type value="Animation, Build, Scripting" />
+			<images num="4" />
+		</client-->
+		<client value="Enter the Studio">
+			<url value="http://www.enterthestudio.com" />
+			<type value="Contractor: Developer" />
+			<images num="2" />
+		</client>
+		<client value="Houston Zoo">
+			<url value="http://www.houstonzoo.org" />
+			<type value="Development" />
+			<images num="4" />
+		</client>
+		<client value="Lulu Lemon">
+			<url value="http://www.lululemon.com" />
+			<type value="Design" />
+			<images num="5" />
+		</client>
+		<!--client value="Milliken Development">
+			<url value="http://www.thedigitalkid.com/milk" />
+			<type value="Animation, Build, Scripting" />
+			<images num="2" />
+		</client-->		
+	</clientRow1>	
+	<clientRow2>
+		<client value="Martini Design">
+			<url value="http://www.martinidesign.com" />
+			<type value="Actionscript Developer" />
+			<images num="2" />
+		</client>
+		<!--client value="Microsoft HID">
+			<url value="http://www.thedigitalkid.com/hid" />
+			<type value="Animation, Build, Scripting" />
+			<images num="5" />
+		</client>
+		<client value="More Power Racing">
+			<url value="http://www.morepowerracing.com" />
+			<type value="Freelance" />
+			<images num="1" />
+		</client-->
+		<client value="RMB Vivid">
+			<url value="http://www.rmbvivid.com" />
+			<type value="Developer" />
+			<images num="1" />
+		</client>
+		<!--client value="Sixth Avenue Wine Seller">
+			<url value="http://www.sixthavenuewineseller.com/" />
+			<type value="Freelance Development" />
+			<images num="3" />
+		</client-->
+		<client value="Weinstein AU">
+			<url value="http://www.weinsteinau.com/" />
+			<type value="Animation, Build, Scripting" />
+			<images num="3" />
+		</client>
+	</clientRow2>
+
+</rmbdata>
+
