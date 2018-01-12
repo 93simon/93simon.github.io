@@ -3923,6 +3923,9 @@
 
 
 
+#intro {
+    min-height: 85vh;
+}
 
 #two .features h6 {
 	color: inherit;
