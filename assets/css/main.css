@@ -3927,7 +3927,7 @@
     min-height: 85vh;
 }
 
-#two .features h6 {
+#two .features h6, #three .features h6 {
 	color: inherit;
 }
 
