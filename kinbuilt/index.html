@@ -197,7 +197,7 @@ padding: 1%;
    font-size: xx-large;
    margin: 0;
  }
- .mobile-texts h2 { 
+ .mobile-texts h2, .mobile-texts h3, .mobile-texts h4 { 
    margin: 0;
  }
 .info3 {
@@ -252,9 +252,13 @@ padding: 25px 46px;
   text-align: center;
 }
 
+.info2 {
+  margin-top: 1em;
+  font-size: larger;
+  margin-bottom: 2em;
+}
 .info2 ul {
-  padding: auto;
-  margin: auto;
+display: none;
 }
 
 
@@ -279,7 +283,10 @@ padding: 25px 46px;
   }
 
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 6em;
+  /*  bottom: 6em;*/
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: initial;
 }
 .sqs-block {
       position: relative;
