@@ -22,9 +22,13 @@
       margin: 0;
       padding: 0;
     }
+    .swiper-wrapper {
+      max-height: 20vh;
+    }
     .swiper-container {
       width: 100%;
       height: 100%;
+      max-width: 1920px;
     }
     .swiper-slide {
       text-align: center;
@@ -46,10 +50,41 @@
     }
 
     .swiper-slide img {
-    max-width: 60%;
+    max-width: 55%;
     /*max-height: 100%;*/
 }
 
+.swiper-infos {
+      position: absolute;
+    bottom: 10%;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-size: -webkit-xxx-large;
+    z-index: 9999;
+}
+
+.swiper-pagination-bullet {
+    width: 28px;
+    height: 28px;
+    opacity: 1;
+  }
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 20px;
+  }
+
+  .activeColor {
+
+  }
+
+  .swiper-pagination-bullet:first-child { background-color: blue; border: 0px solid black; }
+  .swiper-pagination-bullet:nth-child(2) { background-color: red; border: 0px solid black; }
+  .swiper-pagination-bullet:nth-child(3) { background-color: deeppink; border: 0px solid black; }
+
+
+  .swiper-pagination-bullet:nth-child(4) { background-color: blue; border: 0px solid gray; }
+  .swiper-pagination-bullet:nth-child(5) { background-color: red; border: 0px solid gray; }
+  .swiper-pagination-bullet:nth-child(6) { background-color: deeppink; border: 0px solid gray; }
 /*.module {
  
 }
@@ -73,40 +108,99 @@
   <div class="swiper-container module">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="kinbuilt_custom_black_front_blue.jpg"></div>
-      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_blue.jpg"></div>
-      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_red.jpg"></div>
       <div class="swiper-slide"><img src="kinbuilt_custom_black_front_red.jpg"></div>
       <div class="swiper-slide"><img src="kinbuilt_custom_black_front_pink.jpg"></div>
-      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_pink.jpg"></div>
 
+      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_blue.jpg"></div>
+      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_red.jpg"></div>
+      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_pink.jpg"></div>
+<!-- 
             <div class="swiper-slide"><img src="kinbuilt_custom_black_front_blue.jpg"></div>
       <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_blue.jpg"></div>
       <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_red.jpg"></div>
       <div class="swiper-slide"><img src="kinbuilt_custom_black_front_red.jpg"></div>
       <div class="swiper-slide"><img src="kinbuilt_custom_black_front_pink.jpg"></div>
-      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_pink.jpg"></div>
+      <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_pink.jpg"></div> -->
       
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
 
+
+  <div class="swiper-infos">
+      BLACK/BLUE
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <!-- Swiper JS -->
   <script src="dist/js/swiper.min.js"></script>
 
+
+
+
   <!-- Initialize Swiper -->
   <script>
+
+
+
+
+var s = ['[{"attributes":{"Secondary":"BLUE","Primary":"BLACK"},"optionValues":[{"optionName":"Primary","value":"BLACK"},{"optionName":"Secondary","value":"BLUE"}],"sku":"SQ8740136","price":12000,"salePrice":10900,"priceMoney":{"currency":"USD","value":"120.00"},"salePriceMoney":{"currency":"USD","value":"120.00"},"onSale":true,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"RED","Primary":"BLACK"},"optionValues":[{"optionName":"Primary","value":"BLACK"},{"optionName":"Secondary","value":"RED"}],"sku":"SQ9229369","price":12000,"salePrice":10900,"priceMoney":{"currency":"USD","value":"120.00"},"salePriceMoney":{"currency":"USD","value":"120.00"},"onSale":true,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"PINK","Primary":"BLACK"},"optionValues":[{"optionName":"Primary","value":"BLACK"},{"optionName":"Secondary","value":"PINK"}],"sku":"SQ5661406","price":12000,"salePrice":10900,"priceMoney":{"currency":"USD","value":"120.00"},"salePriceMoney":{"currency":"USD","value":"120.00"},"onSale":true,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"BLUE","Primary":"GRAY"},"optionValues":[{"optionName":"Primary","value":"GRAY"},{"optionName":"Secondary","value":"BLUE"}],"sku":"SQ9634589","price":12900,"salePrice":9900,"priceMoney":{"currency":"USD","value":"129.00"},"salePriceMoney":{"currency":"USD","value":"129.00"},"onSale":false,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"RED","Primary":"GRAY"},"optionValues":[{"optionName":"Primary","value":"GRAY"},{"optionName":"Secondary","value":"RED"}],"sku":"SQ9823158","price":12900,"salePrice":0,"priceMoney":{"currency":"USD","value":"129.00"},"salePriceMoney":{"currency":"USD","value":"129.00"},"onSale":false,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"PINK","Primary":"GRAY"},"optionValues":[{"optionName":"Primary","value":"GRAY"},{"optionName":"Secondary","value":"PINK"}],"sku":"SQ0502471","price":12900,"salePrice":9900,"priceMoney":{"currency":"USD","value":"129.00"},"salePriceMoney":{"currency":"USD","value":"129.00"},"onSale":false,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0}]'];
+
+//var s = ['{"Select":"11", "PhotoCount":"12"}','{"Select":"21", "PhotoCount":"22"}'];
+var objs = $.map(s, $.parseJSON);
+
+console.log(objs);
+
+
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       spaceBetween: 0,
       grabCursor: true,
-      // autoHeight: true,
+      autoHeight: true,
       centeredSlides: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,        
       },
     });
+
+
+   // var mySwiper = new Swiper('.swiper-container', {
+      // ...
+    //};
+    function getBagIndex(nNum) {
+
+     
+     // var json = JSON.stringify(bagColors); 
+     var theBag = objs[nNum];
+
+     //.swiper-pagination-bullet-active
+
+     //.swiper-pagination-bullet-active
+
+//     $('.swiper-infos').html(' ' + getBagIndex(swiper.activeIndex) + ' ');
+     $( ".swiper-infos" ).toggleClass( "activeColor"+nNum);
+
+      return theBag.attributes.Primary + '/' + theBag.attributes.Secondary;
+
+     // return objs[nNum];
+    }
+
+
+    swiper.on('slideChange', function () {
+      console.log('slide changed');
+      console.log(swiper.activeIndex);
+
+
+      $('.swiper-infos').html(' ' + getBagIndex(swiper.activeIndex) + ' ');
+
+    });
+
+
+
+
   </script>
 </body>
 </html>
