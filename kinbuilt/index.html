@@ -23,7 +23,7 @@
       padding: 0;
     }
     .swiper-wrapper {
-      max-height: 20vh;
+     /* max-height: 20vh;*/
     }
     .swiper-container {
       width: 100%;
@@ -50,7 +50,7 @@
     }
 
     .swiper-slide img {
-    max-width: 55%;
+   /* max-width: 55%;*/
     /*max-height: 100%;*/
 }
 
@@ -63,6 +63,37 @@
     font-size: -webkit-xxx-large;
     z-index: 9999;
 }
+
+
+.swiper-infos-texts {
+    width: 33%;
+/*    background: #fff;
+    background: -moz-linear-gradient(top,#fff 0%,rgba(255,255,255,.28) 100%);
+    background: -webkit-gradient(left top,left bottom,color-stop(0%,#fff),color-stop(100%,rgba(255,255,255,.28)));
+    background: -webkit-linear-gradient(top,#fff 0%,rgba(255,255,255,.28) 100%);
+    background: -o-linear-gradient(top,#fff 0%,rgba(255,255,255,.28) 100%);
+    background: -ms-linear-gradient(top,#fff 0%,rgba(255,255,255,.28) 100%);
+    background: linear-gradient(to bottom,#fff 0%,rgba(255,255,255,.28) 100%);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff',endColorstr='#ffffff',GradientType=0);*/
+    margin: auto;
+}
+
+.swiper-infos-texts {
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+
+}
+ 
+
+
+
+
 
 .swiper-pagination-bullet {
     width: 28px;
@@ -105,6 +136,8 @@
 </head>
 <body>
   <!-- Swiper -->
+
+  
   <div class="swiper-container module">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="kinbuilt_custom_black_front_blue.jpg"></div>
@@ -129,7 +162,7 @@
 
 
   <div class="swiper-infos">
-      BLACK/BLUE
+     <div class="swiper-infos-texts"> BLACK/BLUE </div>
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -158,7 +191,7 @@ console.log(objs);
       slidesPerView: 1,
       spaceBetween: 0,
       grabCursor: true,
-      autoHeight: true,
+    //  autoHeight: true,
       centeredSlides: true,
       pagination: {
         el: '.swiper-pagination',
@@ -194,7 +227,7 @@ console.log(objs);
       console.log(swiper.activeIndex);
 
 
-      $('.swiper-infos').html(' ' + getBagIndex(swiper.activeIndex) + ' ');
+      $('.swiper-infos-texts').html(' ' + getBagIndex(swiper.activeIndex) + ' ');
 
     });
 
