@@ -8,6 +8,8 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="dist/css/swiper.min.css">
 
+<link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+
   <!-- Demo styles -->
   <style>
     html, body {
@@ -21,6 +23,7 @@
       color:#000;
       margin: 0;
       padding: 0;
+      /*overflow-x: hidden;*/
     }
     .swiper-wrapper {
      /* max-height: 20vh;*/
@@ -28,7 +31,7 @@
     .swiper-container {
       width: 100%;
       height: 100%;
-      max-width: 1920px;
+      /*max-width: 1920px;*/
     }
     .swiper-slide {
       text-align: center;
@@ -62,11 +65,13 @@
     width: 100%;
     font-size: -webkit-xxx-large;
     z-index: 9999;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 
 .swiper-infos-texts {
-    width: 66%;
+    width: 46%;
 /*    background: #fff;
     background: -moz-linear-gradient(top,#fff 0%,rgba(255,255,255,.28) 100%);
     background: -webkit-gradient(left top,left bottom,color-stop(0%,#fff),color-stop(100%,rgba(255,255,255,.28)));
@@ -76,10 +81,22 @@
     background: linear-gradient(to bottom,#fff 0%,rgba(255,255,255,.28) 100%);
     filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff',endColorstr='#ffffff',GradientType=0);*/
     margin: auto;
+    background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+
 }
 
-.swiper-infos-texts {
-background: rgba(226,226,226,1);
+.swiper-infos-data {
+    width: 46%;    
+    margin: auto;
+    float: left;
+    background: rgba(226,226,226,1);
 background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
 background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
@@ -88,6 +105,13 @@ background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1)
 background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
 padding: 1%;
+  }
+
+.swiper-infos-texts {
+    margin: auto;
+    float: left;
+padding: 1%;
+
 }
  
 
@@ -96,8 +120,8 @@ padding: 1%;
 
 
 .swiper-pagination-bullet {
-    width: 28px;
-    height: 28px;
+    width: 18px;
+    height: 18px;
     opacity: 1;
   }
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
@@ -116,26 +140,110 @@ padding: 1%;
   .swiper-pagination-bullet:nth-child(4) { background-color: blue; border: 0px solid gray; }
   .swiper-pagination-bullet:nth-child(5) { background-color: red; border: 0px solid gray; }
   .swiper-pagination-bullet:nth-child(6) { background-color: deeppink; border: 0px solid gray; }
-/*.module {
+
+  .infoholder {
+    position: relative;
+    width: 66%;
+    margin: auto;
  
-}
-.swiper-slide {
-    cursor: move; 
-    cursor: grab;
-    cursor: -moz-grab;
-    cursor: -webkit-grab;
+
+  }
+
+
+.infobg {
+  background: red;
 }
 
-.swiper-slide:active { 
-    cursor: grabbing;
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing;
-}*/
+.swiperdata {
+
+}
+
+
+.swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+/*    height: auto;
+    max-height: 98%;
+    overflow: visible;*/
+}
+
+.swiper-container-autoheight .swiper-slide {
+    /*height: auto;
+    max-height: 98%;
+    overflow: visible;*/
+}
+.mobile-texts {
+  position: relative;
+    padding: 0 4em;
+}
+#logoWrapper { text-align: center; }
+#logoImage img {
+  max-width: 200px;
+}
+
+#header {
+      position: fixed;
+    z-index: 999;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.colorTitle {
+  font-size: xx-large;  
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  #header {
+        position: relative;
+      z-index: 999;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+  }
+  .swiper-infos {
+    font-size: large;
+  }
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 6em;
+}
+
+
+
+}
+
+
+
 
   </style>
 </head>
+
+
 <body>
   <!-- Swiper -->
+
+<div class="menu">
+<header id="header" role="banner">
+        <div class="header-inner" id="yui_3_17_2_1_1517032074009_315">
+          <div id="logoWrapper" class="title-logo-wrapper" data-content-field="site-title">
+            
+              <h1 id="logoImage" class="tmpl-loading logo-image"><a href="/" id="yui_3_17_2_1_1517032074009_314"><img src="logo.png" alt="KINBUILT"></a></h1>
+            
+          </div><!-- comment the linebreak between these two elements because science
+          --><label for="mobileNavToggle" class="mobile-nav-toggle-label show-on-scroll-mobile"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><!-- comment the linebreak between these two elements because science
+          --><div id="headerNav" class="tmpl-loading positioned" style="margin-left: -21px; margin-top: -41px; margin-bottom: 5px;">
+
+  
+  <!-- style below blocks out the mobile nav toggle only when nav is loaded -->
+  <style>.mobile-nav-toggle-label { display: inline-block; }</style>
+
+
+</div>
+        </div>
+      </header>
+
+</div>
 
 
   <div class="swiper-container module">
@@ -156,14 +264,27 @@ padding: 1%;
       <div class="swiper-slide"><img src="kinbuilt_custom_gray_front_pink.jpg"></div> -->
       
     </div>
+
+    <div class="mobile-texts">
+    <h1 class="colorTitle"></h4>
+    <h1>Rugged And Unisex Diaper Bags</h1>
+    <h2>Minimalist Design | Maximum Storage</h2>
+
+    <h3></h3>
+
+    </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
 
 
-  <div class="swiper-infos">
-     <div class="swiper-infos-texts"> BLACK/BLUE </div>
-     <div class="swiper-infos-data">  </div>
+  <div class="swiperdata">
+    <div class="swiper-infos">
+      <div class="infoholder">
+       <div class="swiper-infos-texts"> BLACK/BLUE </div>
+       <div class="swiper-infos-data"> 120.00 </div>
+       </div>
+    </div>
   </div>
 
 <script src="jquery.min.js"></script>
@@ -182,6 +303,7 @@ padding: 1%;
 
 var s = ['[{"attributes":{"Secondary":"BLUE","Primary":"BLACK"},"optionValues":[{"optionName":"Primary","value":"BLACK"},{"optionName":"Secondary","value":"BLUE"}],"sku":"SQ8740136","price":12000,"salePrice":10900,"priceMoney":{"currency":"USD","value":"120.00"},"salePriceMoney":{"currency":"USD","value":"120.00"},"onSale":true,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"RED","Primary":"BLACK"},"optionValues":[{"optionName":"Primary","value":"BLACK"},{"optionName":"Secondary","value":"RED"}],"sku":"SQ9229369","price":12000,"salePrice":10900,"priceMoney":{"currency":"USD","value":"120.00"},"salePriceMoney":{"currency":"USD","value":"120.00"},"onSale":true,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"PINK","Primary":"BLACK"},"optionValues":[{"optionName":"Primary","value":"BLACK"},{"optionName":"Secondary","value":"PINK"}],"sku":"SQ5661406","price":12000,"salePrice":10900,"priceMoney":{"currency":"USD","value":"120.00"},"salePriceMoney":{"currency":"USD","value":"120.00"},"onSale":true,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"BLUE","Primary":"GRAY"},"optionValues":[{"optionName":"Primary","value":"GRAY"},{"optionName":"Secondary","value":"BLUE"}],"sku":"SQ9634589","price":12900,"salePrice":9900,"priceMoney":{"currency":"USD","value":"129.00"},"salePriceMoney":{"currency":"USD","value":"129.00"},"onSale":false,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"RED","Primary":"GRAY"},"optionValues":[{"optionName":"Primary","value":"GRAY"},{"optionName":"Secondary","value":"RED"}],"sku":"SQ9823158","price":12900,"salePrice":0,"priceMoney":{"currency":"USD","value":"129.00"},"salePriceMoney":{"currency":"USD","value":"129.00"},"onSale":false,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0},{"attributes":{"Secondary":"PINK","Primary":"GRAY"},"optionValues":[{"optionName":"Primary","value":"GRAY"},{"optionName":"Secondary","value":"PINK"}],"sku":"SQ0502471","price":12900,"salePrice":9900,"priceMoney":{"currency":"USD","value":"129.00"},"salePriceMoney":{"currency":"USD","value":"129.00"},"onSale":false,"unlimited":false,"qtyInStock":156,"width":14.0,"height":6.0,"weight":4.0,"len":20.0}]'];
 
+
 //var s = ['{"Select":"11", "PhotoCount":"12"}','{"Select":"21", "PhotoCount":"22"}'];
 var objs = $.map(s, $.parseJSON);
 
@@ -192,7 +314,7 @@ console.log(objs);
       slidesPerView: 1,
       spaceBetween: 0,
       grabCursor: true,
-      //autoHeight: true,
+      autoHeight: true,
       centeredSlides: true,
       pagination: {
         el: '.swiper-pagination',
@@ -218,6 +340,9 @@ console.log(objs);
      //$( ".swiper-infos" ).toggleClass( "activeColor"+nNum);
 
       $('.swiper-infos-data').html(' ' + theBag.priceMoney.value + ' ');
+      $('.mobile-texts h3').html(' ' + theBag.sku + ' ');
+      $('.mobile-texts .colorTitle').html(' ' + theBag.attributes.Primary + ' / ' + theBag.attributes.Secondary + ' ');
+
 
       return theBag.attributes.Primary + '/' + theBag.attributes.Secondary;
 
@@ -236,6 +361,7 @@ console.log(objs);
 
 
 
+getBagIndex(0);
 
   </script>
 </body>
