@@ -1655,11 +1655,12 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/li-pic01.jpg");
-		background-position: bottom;
-		background-size: cover;
-		background-repeat: no-repeat;
-		text-align: center;
+		/*background: #CCE8F4 url("../../images/li-pic01.jpg");*/
+    background: #fff url(../../images/header8.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 	}
 
 		#banner header {
@@ -2005,8 +2006,8 @@
 
 			#banner {
 				position: relative;
-				padding: 12em 0;
-				margin: 4em 0 0 0;
+				padding: 18em 0;
+				margin: 0em 0 0 0;
 			}
 
 				#banner header {
