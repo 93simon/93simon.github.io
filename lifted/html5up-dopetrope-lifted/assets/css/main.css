@@ -2607,10 +2607,18 @@ pointer-events: none;
  }
 
 
+ul.dates p {
+    margin: 0;
+    font-size: small;
+        line-height: initial;
+}
 
 
-
-
+.swiper-button-next, .swiper-button-prev {
+   
+    width: 30px !important;
+    height: 20px !important;
+}
 
 
 
