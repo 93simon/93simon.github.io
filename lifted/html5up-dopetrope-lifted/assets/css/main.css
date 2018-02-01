@@ -1687,12 +1687,12 @@
 	#header-wrapper {
 		position: relative;
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		border-bottom: solid 0px #ccc;
 	}
 
 	#main-wrapper {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #fff  url("images/bg02.png");
 	}
 
 		#main-wrapper:before {
@@ -1889,7 +1889,7 @@
 			}
 
 			#main-wrapper {
-				padding: 4em 0 4em 0;
+				padding: 2em 0 4em 0;
 			}
 
 			#footer-wrapper {
