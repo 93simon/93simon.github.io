@@ -4,7 +4,8 @@
 
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+
+/*@import url("https://fonts.googleapis.com/css?family=PT+Serif");*/
 
 
 /*
@@ -90,6 +91,162 @@
 	.container {
 		width: 960px;
 	}
+
+
+ul.dates li {
+   zoom: 0.85;
+}
+
+
+
+.theprice {
+
+
+font-family: Montserrat, sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: normal;
+line-height: 17.200001px;
+text-transform: none;
+color: #e53359;
+float: right;
+
+}
+
+.theshipping {
+	font-size: smaller;
+	    float: right;
+    clear: both;
+}
+
+
+.thespecs h2, .thecovers h2  {
+	font-size: xx-large;
+	/*zoom: 0.85;*/
+	text-transform: uppercase;
+	font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.thespecs h1, .thecovers h1 {
+	font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: -0.36000001430511475px;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+#nav > ul > li {
+				font-size: small;
+    font-weight: 900;
+    font-style: normal;
+				}
+
+
+
+
+.toolsrow {
+	padding-top: 0 !important;
+}
+.coverssrow
+ {
+ 	padding-top: inherit;
+ }
+
+
+.buynow {
+	width: 100%;
+	text-align: center;
+}
+
+
+.swiper-pagination {
+	    width: 100%;
+	    margin: auto;
+	    position: initial !important;
+}
+.swiper-pagination-holder { 
+
+     position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 0 0 2em 0;
+ }
+
+.swiper-pagination-bullet {
+	    margin: 0.25em;
+}
+.swiper-pagination-bullet-active {
+	background: #d52349 !important;	
+}
+
+.thespecs .box {
+	padding-bottom: 0;
+}
+
+.tooltexts li {
+	cursor: pointer;
+	color: inherit;
+}
+.tooltexts b {
+	font-weight: 900;
+
+	color: inherit;
+}
+.tooltexts strong {
+	font-weight: 700;
+
+	color: inherit;
+}
+
+.tooltexts li:hover {
+	/*font-weight: 700 !important;*/
+	color: #d52349 !important;
+}
+
+.toolred {
+	color: #d52349;
+}
+.actions {
+	margin-bottom: 0;
+}
+
+.includedtexts {
+	margin-bottom: 0;
+	}
+.includedtexts b {
+	font-weight: 700 !important; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	@media screen and (min-width: 737px) {
 
@@ -1290,7 +1447,7 @@
 
 	.box {
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		/*border-bottom: solid 1px #ccc;*/
 	}
 
 		.box .image.featured {
@@ -1397,7 +1554,7 @@
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 		}
 
 		.image.left {
@@ -1485,6 +1642,7 @@
 
 	ul.dates p {
 		margin: 0;
+		font-size: x-large;
 	}
 
 	ul.dates li:first-child {
@@ -1686,14 +1844,14 @@ background-color: #e53359;
 }
 */
 
-.icon.featured:hover  {
+/*.icon.featured:hover  {
 background-color: #e53359;
-}
+}*/
 
-.icon.featured:after::hover {
-/*//background-color: #e53359;*/	
+/*.icon.featured:after::hover {
+	
 border-top: solid 2em #e53359
-}
+}*/
 
 /* Banner */
 
@@ -1751,10 +1909,45 @@ border-top: solid 2em #e53359
 
 		#main-wrapper .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
-			 
+			/*font-family: inherit;
+font-size: 26px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: normal;
+line-height: 35px;
+text-transform: uppercase;
+color: #5C5C5C;
+			 text-align: center;*/
+/*font-family: Montserrat, Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: 3px;
+line-height: 26.600000381469727px;
+text-transform: uppercase;
+color: #000000;*/
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: -0.36000001430511475px;
+line-height: 20px;
+text-transform: none;
 
 		}
+.swiper-wrapper h3 {
+	font-family: inherit;
+font-size: smaller;
+font-style: normal;
+font-weight: 900;
+letter-spacing: normal;
+line-height: 35px;
+text-transform: uppercase;
+color: #5C5C5C;
+			 text-align: center;
 
+}
 
 	#footer-wrapper {
 		position: relative;
@@ -1827,6 +2020,7 @@ border-top: solid 2em #e53359
 
 			h3 {
 				font-size: 1.35em;
+				text-align: center;
 			}
 
 		/* Section/Article */
@@ -1973,7 +2167,7 @@ border-top: solid 2em #e53359
 
 				#nav > ul > li {
 					display: inline-block;
-					font-style: italic;
+					/*font-style: italic;*/
 					margin: 0 0.35em 0 0.35em;
 				}
 
@@ -2059,6 +2253,7 @@ border-top: solid 2em #e53359
 				position: relative;
 				padding: 18em 0;
 				margin: 0em 0 0 0;
+				/*background-size: cover;*/
 			}
 
 				#banner header {
@@ -2091,8 +2286,16 @@ border-top: solid 2em #e53359
 					font-size: 1.75em;
 				}
 
-				#intro p {
+				#intro p, .details {
 					margin: 0;
+					font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-transform: none;
+color: #34495E;
 				}
 
 				#intro .middle {
@@ -2539,8 +2742,8 @@ border-top: solid 2em #e53359
 				}
 
 					#intro section.first {
-						border-top: 0;
-						padding-top: 0;
+					/*	border-top: 0;
+						padding-top: 0;*/
 					}
 
 					#intro section p {
@@ -2597,8 +2800,17 @@ border-top: solid 2em #e53359
 					padding: 0.75em 1.25em 0.75em 1.25em;
 				}
 
-	}
 
+ul.dates li .date  {
+float: left;
+    clear: both;
+display: none;
+
+	}
+ul.dates li {
+	padding: 0;
+    padding-top: 2em;
+}
 
 
 	.smalltxt {
@@ -2655,10 +2867,23 @@ pointer-events: none;
  }
 
 
+
+
+
+
 ul.dates p {
     margin: 0;
     font-size: small;
         line-height: initial;
+            font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: none;
+    color: #fff;
+
 }
 
 
@@ -2670,14 +2895,47 @@ ul.dates p {
 
 
 
+ol {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-transform: none;
+color: #34495E;
+}
 
 
-
-
-
-
-
-
-
+.introicons {
+	zoom: 0.9;
+}
 
 /*//////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////*/
