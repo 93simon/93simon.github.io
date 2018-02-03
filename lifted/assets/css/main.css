@@ -1,6 +1,12 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+
+
 /*
 	Dopetrope by HTML5 UP
 	html5up.net | @ajlkn
@@ -1612,7 +1618,7 @@
 		.icon.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
+			background-color: #444444;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -1632,7 +1638,7 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #d52349;
+				border-top: solid 2em #444444;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
@@ -1652,6 +1658,42 @@
 				.icon.featured.alt2:after {
 					border-top-color: #827a7c;
 				}
+
+
+
+			.icon.featured.alt3 {
+				background-color: #252122;
+			}
+
+				.icon.featured.alt3:after {
+					border-top-color: #252122;
+				}
+
+			.icon.featured.alt4 {
+				background-color: #827a7c;
+			}
+
+				.icon.featured.alt4:after {
+					border-top-color: #827a7c;
+				}
+
+/*
+.icon.featured:after:hover {
+background-color: #e53359;	
+}
+.icon.featured:hover  {
+background-color: #e53359;
+}
+*/
+
+.icon.featured:hover  {
+background-color: #e53359;
+}
+
+.icon.featured:after::hover {
+/*//background-color: #e53359;*/	
+border-top: solid 2em #e53359
+}
 
 /* Banner */
 
@@ -1709,7 +1751,10 @@
 
 		#main-wrapper .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
+			 
+
 		}
+
 
 	#footer-wrapper {
 		position: relative;
@@ -2573,7 +2618,7 @@
 }
 
 p {
-	font-family: 'PT Serif', serif;	
+	/*font-family: 'PT Serif', serif;	*/
 }
 
 #header img { max-width: 100px; }
@@ -2599,6 +2644,9 @@ font-size: medium;
 
 .swiper-container h3 {
 text-align: center;
+   font-family: inherit;
+			    font-weight: 500;
+			    font-size: 1em;
 }
 
 
@@ -2619,6 +2667,7 @@ ul.dates p {
     width: 30px !important;
     height: 20px !important;
 }
+
 
 
 
