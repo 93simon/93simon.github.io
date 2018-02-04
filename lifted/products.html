@@ -12,7 +12,6 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 	
-	<link rel="stylesheet" type="text/css" href="assets/css/jquery.mapify.css">	
 
 		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 		 
@@ -139,24 +138,7 @@
 										<div class="row">
 											<div class="8u 12u(mobile)">
 												<section class="box">
-													<!-- <a href="#" class="image featured tokerimg"><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/344/toker-tool_top-down_1__02888.1495352423.jpg?c=2&imbypass=on&imbypass=on" alt="" /></a> -->
-													<!-- <a class="image featured tokerimg1"><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/344/toker-tool_top-down_1__02888.1495352423.jpg?c=2&imbypass=on&imbypass=on" alt="" /></a> -->
-													
-													<img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/344/toker-tool_top-down_1__02888.1495352423.jpg?c=2&imbypass=on&imbypass=on" alt="" width="1280px" height="1280px" usemap="#Map" />
-													<map name="Map" id="Map">
-													    <area alt="" title="" href="#" shape="poly" coords="357,263,380,537,915,543,964,573,968,551,881,498,787,428,582,151,369,192" />
-													    <area alt="" title="" href="#" shape="poly" coords="581,149,655,85,875,89,871,253,932,475,995,598,983,611,790,427" />
-													    <area alt="" title="" href="#" shape="poly" coords="875,91,1165,168,1011,489,987,502,981,514,987,528,1002,522,1000,647,989,654,872,251" />
-													    <area alt="" title="" href="#" shape="poly" coords="1167,171,994,519,978,695,1226,726,1278,697,1270,181" />
-													    <area alt="" title="" href="#" shape="poly" coords="284,595,273,661,296,704,270,732,263,768,272,1147,2,1153,2,609" />
-													    <area alt="" title="" href="#" shape="poly" coords="296,711,329,734,318,757,348,799,552,1146,276,1149,265,774,284,717" />
-													    <area alt="" title="" href="#" shape="poly" coords="691,983,390,768,379,742,334,733,320,756,560,1146,791,1146,780,999" />
-													    <area alt="" title="" href="#" shape="poly" coords="387,740,393,769,688,979,869,989,851,745" />
-													    <area alt="" title="" href="#" shape="poly" coords="883,775,897,1222,1064,1210,1059,782" />
-													    <area alt="" title="" href="#" shape="poly" coords="1062,782,1248,789,1229,1216,1069,1211" />
-													    <!-- [...] -->
-													</map>
-
+													<a href="#" class="image featured tokerimg"><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/344/toker-tool_top-down_1__02888.1495352423.jpg?c=2&imbypass=on&imbypass=on" alt="" /></a>
 													<header>
 													<!-- 	<h3>Magna tempus consequat lorem</h3>
 														<p>Posted 45 minutes ago</p> -->
@@ -442,7 +424,7 @@ Chamfered mouth tip -->
 
 			<!-- Footer -->
 				<div id="footer-wrapper">
-					<section id="footer" class="container stockiststexts">
+					<section id="footer" class="container">
 						<div class="row">
 							<div class="3u 4u(mobile)">
 								<section>
@@ -455,14 +437,16 @@ Chamfered mouth tip -->
 											<span class="date">USA <strong>CA</strong></span>
 											<!-- <h3><a href="#">Lorem dolor sit amet veroeros</a></h3> -->
 											<p>
-											<b>Lung Doctor</b><br>843 S Escondido Blvd, <br>Escondido, CA 92025<br>+1 760-233-4171</p>
+											<b>Lung Doctor</b><br>843 S Escondido Blvd, <br>Escondido, CA 92025<br>+1 760-233-4171
+											.</p>
 										</li>
 										<li>
 											<span class="date">USA <strong>CA</strong></span>
 											<!-- <h3><a href="#">Lorem dolor sit amet veroeros</a></h3> -->
 											<p>
 											
-											<b>The Smoking Bear</b><br>2971 Market St, <br>San Diego, CA 92102<br>+1 619-696-9455</p>
+											<b>The Smoking Bear</b><br>2971 Market St, <br>San Diego, CA 92102<br>+1 619-696-9455
+											</p>
 										</li>
 										
 										
@@ -629,7 +613,7 @@ Chamfered mouth tip -->
 		 
 		<script src="assets/js/swiper.min.js"></script>
 
-<script type="text/javascript" src="assets/js/jquery.mapify.js"></script>
+
 
 <!--   <script>
     var swiper = new Swiper('.swiper-container');
@@ -661,38 +645,43 @@ Chamfered mouth tip -->
 //tooltexts
  $('.thespecs .tooltexts').mouseleave(function(e){
  	//console.log('0');
- 	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/344/toker-tool_top-down_1__02888.1495352423.jpg?c=2&imbypass=on&imbypass=on');
+ 	$('.thespecs .tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/344/toker-tool_top-down_1__02888.1495352423.jpg?c=2&imbypass=on&imbypass=on');
  });
 
-$('.tooltexts li:first-child').mouseenter(function(e){
-	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/355/toker-tool_fork__11848.1501143584.jpg?c=2&imbypass=on');
+$('.thespecs ol li:first-child').mouseenter(function(e){
+	///console.log('1');
+	//$this = $(this).find('strong');
+	//$this = $(this);
+	//$('strong')
+	//$this.toggleClass('toolred');
+	$('.thespecs .tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/355/toker-tool_fork__11848.1501143584.jpg?c=2&imbypass=on');
 });
-$('.tooltexts li:nth-child(2)').mouseenter(function(e){
-	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/363/toker-tool_angle-edge__88538.1501143698.jpg?c=2&imbypass=on');
+$('.thespecs ol li:nth-child(2)').mouseenter(function(e){
+	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/363/toker-tool_angle-edge__88538.1501143698.jpg?c=2&imbypass=on');
 });
-$('.tooltexts ol li:nth-child(3)').mouseenter(function(e){
-	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/353/toker-tool_packer__10854.1501143584.jpg?c=2&imbypass=on');
+$('.thespecs ol li:nth-child(3)').mouseenter(function(e){
+	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/353/toker-tool_packer__10854.1501143584.jpg?c=2&imbypass=on');
 });
 $('.thespecs ol li:nth-child(4)').mouseenter(function(e){
-	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/500x659/products/14/357/toker-tool_scissors__89219.1501143585.jpg?c=2');
+	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/500x659/products/14/357/toker-tool_scissors__89219.1501143585.jpg?c=2');
 });
 $('.thespecs ol li:nth-child(5)').mouseenter(function(e){
-	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/364/toker-tool_spatula__01856.1501143750.jpg?c=2&imbypass=on');
+	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/364/toker-tool_spatula__01856.1501143750.jpg?c=2&imbypass=on');
 });
 $('.thespecs ol li:nth-child(6)').mouseenter(function(e){
-	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/354/toker-tool_poker__50997.1501143584.jpg?c=2&imbypass=on');
+	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/354/toker-tool_poker__50997.1501143584.jpg?c=2&imbypass=on');
 });
 $('.thespecs ol li:nth-child(7)').mouseenter(function(e){
- 	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/358/toker-tool_spoon__48416.1501143585.jpg?c=2&imbypass=on');
+ 	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/358/toker-tool_spoon__48416.1501143585.jpg?c=2&imbypass=on');
  });
 $('.thespecs ol li:nth-child(8)').mouseenter(function(e){
- 	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/368/toker-tool_pic_2.__39629.1501144287.jpg?c=2&imbypass=on');
+ 	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/368/toker-tool_pic_2.__39629.1501144287.jpg?c=2&imbypass=on');
  });
 $('.thespecs ol li:nth-child(9)').mouseenter(function(e){
- 	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/368/toker-tool_pic_2.__39629.1501144287.jpg?c=2&imbypass=on');
+ 	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/368/toker-tool_pic_2.__39629.1501144287.jpg?c=2&imbypass=on');
  });
 $('.thespecs ol li:nth-child(10)').mouseenter(function(e){
- 	$('.mapify-img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/367/toker-tool_clip_2__37372.1501144286.jpg?c=2&imbypass=on');
+ 	$('.tokerimg img').attr('src', 'http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/367/toker-tool_clip_2__37372.1501144286.jpg?c=2&imbypass=on');
  });
 
 
@@ -704,53 +693,6 @@ $('.thespecs ol li:nth-child(10)').mouseenter(function(e){
     // });
 
 </script>
-
-
-<script type="text/javascript">
-$(function(){
-	
-	$("img[usemap]:first").mapify({
-		hoverClass: "drop-hover"
-	});
-	
-	$("img[usemap]:last").mapify({
-		popOver: {
-			content: function(zone){
-				return "<strong>"+zone.attr("data-title")+"</strong>"+zone.attr("data-nbmembre")+" Members";
-			},
-			delay: 0.7,
-			margin: "15px",
-			height: "130px",
-			width: "260px"
-		},
-		onAreaHighlight: function(){
-			console.log("onAreaHighlight callback");
-		},
-		onMapClear: function(){
-			console.log("onMapClear callback");
-		}
-	});
-	
-	$("img[usemap]").mapify({
-		popOver: {
-			content: function(zone){ 
-				return "<strong>"+zone.attr("data-title")+"</strong>"+zone.attr("data-nbmembre")+" Members";
-			},
-			delay: 0.7,
-			margin: "15px",
-			height: "130px",
-			width: "260px"
-		}
-	});
-
-
-	$("#dynamicClassChange").click(function() {
-		$(this).attr("data-hover-class","hover-green");
-	});
-	
-});
-</script>
-
 
 
 	</body>
