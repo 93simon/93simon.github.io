@@ -136,12 +136,12 @@ float: right;
 
 .thespecs h1, .thecovers h1 {
 	font-family: Montserrat;
-font-size: 16px;
+font-size: x-small;
 font-style: normal;
 font-weight: normal;
 letter-spacing: -0.36000001430511475px;
 line-height: 20px;
-text-transform: uppercase;
+/*text-transform: uppercase;*/
 }
 
 #nav > ul > li {
@@ -174,11 +174,11 @@ text-transform: uppercase;
 	    position: initial !important;
 }
 .swiper-pagination-holder { 
-
+	text-align: center;
      position: relative;
     width: 100%;
     margin: auto;
-    padding: 0 0 2em 0;
+    padding: 0 0 0em 0;
  }
 
 .swiper-pagination-bullet {
@@ -234,11 +234,89 @@ text-transform: uppercase;
 	}
 
 
+.image img  {
+ max-width: 95%;
+ margin: 2em;
+}
+
+
+
+.info10 {
+	cursor: pointer;
+	color: #252122;
+}
+.info10:hover {
+	color: #d52349;
+	}
+
+.slideActive {
+	color: #d52349 !important;
+}
 
 
 
 
+	.mapify-popOver{
+		color: #999;
+		font-size: 16px;
+		max-height: 60px;
+		/*max-width: 100px;*/
+		box-shadow: none;
+		background: rgba(255,255,255,0.5);
 
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	}
+	.mapify-popOver strong{
+		/*font-weight: 400;
+		font-size:24px;
+		line-height: 0em;
+		display: block;
+		margin-bottom: 10px;
+		color: #000;
+		font-size: 1.75em;
+	    color: #252122;
+	    font-weight: 700;*/
+
+font-family: 'Source Sans Pro';
+    font-weight: 300;
+    color: #252122;
+
+	        font-size: x-large;
+    font-weight: 900;
+    font-style: normal;
+
+    line-height: 1em;
+	}
+	.mapify-popOver-content{
+		position: relative;
+			/*top:50%;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);*/
+	}
+	
+	.mapify-popOver.customPopOver{
+		background: #09f;
+	}
+	
+	/* Custom hovering style */
+	.mapify-hover{
+		fill:rgba(0,0,0,0.0);
+		stroke: #fff;
+		stroke-width: 0;
+	}
+	
+	.customHover{
+		/*fill:#09f;*/
+		stroke: #fff;
+		stroke-width: 0;
+	}
+	
 
 
 
@@ -1942,8 +2020,23 @@ text-transform: none;
 
 		}
 .swiper-wrapper h3 {
+
+    /* zoom: 0.85; */
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-transform: uppercase;
+position: relative;
+top: -1em;
+}
+
+/*.swiper-wrapper h3 {
 	font-family: inherit;
-font-size: smaller;
+font-size: xx-large;
 font-style: normal;
 font-weight: 900;
 letter-spacing: normal;
@@ -1952,7 +2045,7 @@ text-transform: uppercase;
 color: #5C5C5C;
 			 text-align: center;
 
-}
+}*/
 
 	#footer-wrapper {
 		position: relative;
@@ -2055,8 +2148,9 @@ color: #5C5C5C;
 
 				.box .image.featured {
 					left: 1.75em;
-					top: 1.75em;
-					margin: -4.5em 0 4.25em -3.5em;
+					top: 0em;
+					/*margin: -4.5em 0 4.25em -3.5em;*/
+					margin: -4.5em 0 0.25em -3.5em;
 				}
 
 				.box.post header {
@@ -2929,11 +3023,9 @@ color: #34495E;
 
 
 
-
-
-
-
-
+.drop-hover {
+	opacity: 0.2;
+}
 
 
 
@@ -2946,3 +3038,20 @@ color: #34495E;
 
 
 /*////*/
+
+/*
+	body{
+		font-family: arial, sans-serif;
+		font-weight: 400;
+		background: #eee;
+		font-size: 12px;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		cursor: default;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	*/
+	/* Mapify custom popOver example */
+	
