@@ -22,7 +22,10 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script> -->
 		<style>
 
-
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
 
 
 		</style>
@@ -88,8 +91,10 @@
 								</header>
 								</section> -->
 
+									
+
 							<!-- INFO BANNER -->
-							<section id="infobanner" style="">
+							<section id="infobanner" style="display: none">
 								<header>
 
 									<!-- <img src="https://93simon.github.io/lifted/images/header8.jpg" alt="" usemap="#Map" width=1605px height=816px/> -->
@@ -115,6 +120,51 @@
 								</header>
 							</section>
 							
+
+							<section id="intro0" class="container">
+<div class="swiper-container-case swiper-container-swiperparts">
+													    <!-- Additional required wrapper -->
+													    <div class="swiper-wrapper">
+													        <!-- Slides -->
+
+<div class="swiper-slide"><a class="image featured"><img src="images/face0.gif" alt="" /></a><h3>10-IN-1 TOKER MULTI-TOOL</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face1.gif" alt="" /></a><h3>Fork/Opener</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face2.gif" alt="" /></a><h3>Angled Edge</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face3.gif" alt="" /></a><h3>Packer</h3></div>
+
+<div class="swiper-slide"><a class="image featured"><img src="images/face4.gif" alt="" /></a><h3>Scissors</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face5.gif" alt="" /></a><h3>Dab</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face6.gif" alt="" /></a><h3>Poker</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face7.gif" alt="" /></a><h3>Scoop</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face8.gif" alt="" /></a><h3>Shovel</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face9.gif" alt="" /></a><h3>Pick</h3></div>
+<div class="swiper-slide"><a class="image featured"><img src="images/face10.gif" alt="" /></a><h3>Clip</h3></div>
+
+													       
+													    </div>
+													    <!-- If we need pagination -->
+													    
+
+													 
+													    <!-- If we need navigation buttons -->
+													  <!--   <div class="swiper-button-prev"></div>
+													    <div class="swiper-button-next"></div> -->
+													 
+													    <!-- If we need scrollbar -->
+													    <!-- <div class="swiper-scrollbar"></div> -->
+
+
+													</div>
+													<div>
+														<div class="swiper-pagination-holder">
+															 <div class="swiper-pagination-parts"></div>
+														</div>
+													</div>
+							</section>
+
+						
+
+
 
 						<!-- Intro -->
 							<section id="intro" class="container">
@@ -681,45 +731,65 @@ Chamfered mouth tip -->
   </script> -->
 
  <script>
-    var swiper = new Swiper('.swiper-container-tool', {
+ 	var swiperparts = new Swiper('.swiper-container-swiperparts', {
     	// lazy: true,
      // slidesPerView: 'auto',
      // loop: true,
       speed: 800,
       grabCursor: true,
       spaceBetween: 40,
-      autoplay: true,
-      zoom: true,
-      autoHeight: 'auto',
-      scrollbar: {
-      	hide: true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-    var swiper2 = new Swiper('.swiper-container-case', {
-    	// lazy: true,
-     // slidesPerView: 'auto',
-     // loop: true,
-      speed: 800,
-      grabCursor: true,
-      spaceBetween: 40,
-      // autoplay: true,
+      autoplay: false,
       // zoom: true,
-      autoHeight: 'auto',
+      // autoHeight: 'auto',
+        effect: 'fade',
       scrollbar: {
       	hide: true,
       },
       pagination: {
-        el: '.swiper-pagination2',
+        el: '.swiper-pagination-parts',
         clickable: true,
       },
     });
 
+    // var swiper = new Swiper('.swiper-container-tool', {
+    // 	// lazy: true,
+    //  // slidesPerView: 'auto',
+    //  // loop: true,
+    //   speed: 800,
+    //   grabCursor: true,
+    //   spaceBetween: 40,
+    //   autoplay: false,
+    //   zoom: true,
+    //   autoHeight: 'auto',
+    //   scrollbar: {
+    //   	hide: true,
+    //   },
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    //   },
+    // });
+    // var swiper2 = new Swiper('.swiper-container-case', {
+    // 	// lazy: true,
+    //  // slidesPerView: 'auto',
+    //  // loop: true,
+    //   speed: 800,
+    //   grabCursor: true,
+    //   spaceBetween: 40,
+    //   // autoplay: true,
+    //   // zoom: true,
+    //   autoHeight: 'auto',
+    //   scrollbar: {
+    //   	hide: true,
+    //   },
+    //   pagination: {
+    //     el: '.swiper-pagination2',
+    //     clickable: true,
+    //   },
+    // });
 
-	var mySwiper = document.querySelector('.swiper-container-tool').swiper
+
+	var mySwiper = document.querySelector('.swiper-container-tool').swiper;
 
 	mySwiper.on('slideChange', function () {
 
@@ -746,7 +816,7 @@ Chamfered mouth tip -->
 
 
      $('.info10').click(function(e){
-     	var mySwiper = document.querySelector('.swiper-container').swiper
+     	var mySwiper = document.querySelector('.swiper-container').swiper;
 		mySwiper.slideTo(0);
 	});
 	$('.tooltexts li:first-child').click(function(e){
@@ -880,7 +950,7 @@ $(function(){
 });
 </script> -->
 
-<script type="text/javascript" src="../build/jquery.mapify.js"></script>
+<!-- <script type="text/javascript" src="../build/jquery.mapify.js"></script> -->
 
 <script type="text/javascript">
 $(function(){
