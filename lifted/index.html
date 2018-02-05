@@ -147,8 +147,8 @@
 
 													 
 													    <!-- If we need navigation buttons -->
-													  <!--   <div class="swiper-button-prev"></div>
-													    <div class="swiper-button-next"></div> -->
+													    <div class="swiper-button-prev"></div>
+													    <div class="swiper-button-next"></div>
 													 
 													    <!-- If we need scrollbar -->
 													    <!-- <div class="swiper-scrollbar"></div> -->
@@ -740,7 +740,7 @@ Chamfered mouth tip -->
       spaceBetween: 40,
       autoplay: false,
       // zoom: true,
-      // autoHeight: 'auto',
+      autoHeight: 'auto',
         effect: 'fade',
       scrollbar: {
       	hide: true,
@@ -748,6 +748,10 @@ Chamfered mouth tip -->
       pagination: {
         el: '.swiper-pagination-parts',
         clickable: true,
+      },
+       navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
     });
 
