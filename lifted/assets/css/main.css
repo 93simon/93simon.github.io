@@ -221,6 +221,8 @@ line-height: 20px;
 
 .includedtexts {
 	margin-bottom: 0;
+	    font-size: smaller;
+    line-height: initial;
 	}
 .includedtexts b {
 	font-weight: 700 !important; 
@@ -235,7 +237,7 @@ line-height: 20px;
 
 
 .image img  {
- max-width: 95%;
+ max-width: 99%;
  margin: 2em;
 }
 
@@ -325,8 +327,37 @@ font-family: 'Source Sans Pro';
 
 
 
+ul.dates li .date  {
+float: left;
+    clear: both;
 
 
+	}
+ul.dates li {
+	padding: 0;
+    padding-top: 2em;
+}
+
+
+
+#header-wrapper {
+	background:#fff;
+/*	background:#fff  url(https://93simon.github.io/lifted/images/header8.jpg);
+
+        background-position: center 2em;
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+.infobannerimg {
+/*	visibility: hidden;*/
+	max-height: 500px;
+}
+
+.infobannerimg header img {
+	    max-width: 1200px;
+	    margin-top: 0em;
+}
 
 
 
@@ -1103,6 +1134,16 @@ font-family: 'Source Sans Pro';
 
 	}
 
+
+
+
+
+
+
+
+
+
+
 	@media screen and (max-width: 736px) {
 
 		.row > * {
@@ -1316,7 +1357,41 @@ font-family: 'Source Sans Pro';
 			margin-left: 8.33333%;
 		}
 
+
+
+		#intro .row:first-child {
+			display: none;
+		}
+
+
+
+
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Basic */
 
@@ -1971,7 +2046,7 @@ border-top: solid 2em #e53359
 
 	#header-wrapper {
 		position: relative;
-		background: #ffffff;
+		/*background: #ffffff;*/
 		border-bottom: solid 0px #ccc;
 	}
 
@@ -2544,6 +2619,10 @@ color: #34495E;
 				margin: 0;
 			}
 
+			#intro .row:first-child {
+				display: none;
+			}
+
 	}
 
 /* Mobile */
@@ -2910,26 +2989,22 @@ color: #34495E;
 		    max-width: 70px;
 		}
 
+.thespecs h2, .thecovers h2 {
+			
+			    font-size: 30px;
+    line-height: 31px;
+		}
 
-
+.includedtexts {
+	font-size: smaller;
+	line-height: initial;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tooltexts {
+	font-size: small;
+}
+.covertexts {
+	font-size: smaller;	
+}
 
 ul.dates li .date  {
 float: left;
@@ -2941,6 +3016,34 @@ ul.dates li {
 	padding: 0;
     padding-top: 2em;
 }
+
+
+
+
+
+.thespecs .box, .thecovers, .tooldetails header {
+	zoom: 0.8;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#intro footer {
+	zoom: 0.6;
+}
+
+
+
 
 
 	.smalltxt {
@@ -2966,7 +3069,7 @@ p {
 /*#header img { */
 
 .mapify-imgHolder img {
-	max-width: -webkit-fill-available; 
+	/*max-width: -webkit-fill-available; */
 }
  
 
@@ -3060,7 +3163,9 @@ color: #34495E;
 }
 
 
-
+.introicons {
+	padding-top: 0;
+}
 
 
 
