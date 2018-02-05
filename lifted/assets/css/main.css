@@ -317,6 +317,10 @@ font-family: 'Source Sans Pro';
 		stroke-width: 0;
 	}
 	
+#header .liftedlogo { 
+	max-width: 100px; 
+}
+
 
 
 
@@ -2932,10 +2936,9 @@ p {
 	/*font-family: 'PT Serif', serif;	*/
 }
 
-#header img { 
-	max-width: 100px; 
-}
-.mapify-imgHolder ing {
+/*#header img { */
+
+.mapify-imgHolder img {
 	max-width: -webkit-fill-available; 
 }
  
@@ -3012,7 +3015,7 @@ color: #34495E;
 
 
 .introicons {
-	zoom: 0.9;
+	zoom: 0.8;
 }
 
 /*//////////*/
