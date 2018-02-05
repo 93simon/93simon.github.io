@@ -2932,8 +2932,13 @@ p {
 	/*font-family: 'PT Serif', serif;	*/
 }
 
-#header img { max-width: 100px; }
-
+#header img { 
+	max-width: 100px; 
+}
+.mapify-imgHolder ing {
+	max-width: -webkit-fill-available; 
+}
+ 
 
 
 .homepage #main-wrapper header h3 { 
