@@ -165,6 +165,7 @@ line-height: 20px;
 .buynow {
 	width: 100%;
 	text-align: center;
+	margin-bottom: 1em !important;
 }
 
 
@@ -224,6 +225,7 @@ line-height: 20px;
 	margin-bottom: 0;
 	    font-size: smaller;
     line-height: initial;
+    padding-top: 1em;
 	}
 .includedtexts b {
 	font-weight: 700 !important; 
@@ -247,6 +249,8 @@ line-height: 20px;
 .info10 {
 	cursor: pointer;
 	color: #252122;
+	margin-bottom: 0.5em;
+
 }
 .info10:hover {
 	color: #d52349;
@@ -369,6 +373,68 @@ background: white;
 }
 
 
+.mobiletitle {
+	display: none;
+}
+
+
+
+
+
+ .tooltexts ol {
+   list-style: none;
+ }
+ .tooltexts li {
+   counter-increment: item;
+   margin-bottom: 5px;
+ }
+
+.tooltexts li {
+
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+  float: left;
+   clear: both;
+   width: 100$;
+
+}
+
+
+.tooltexts li:before {
+   margin-right: 10px;
+   content: counter(item);
+
+   /*background: lightblue;
+   border-radius: 100%;
+   color: white;*/
+   /*width: 1.2em;*/
+   /*text-align: center;*/
+   display: inline-block;
+ }
+.includedtexts {
+	clear: left;
+}
+
+		.tooltexts li {
+				float: left;
+			}
+
+
+
+
+		.thespecs h2, .thecovers h2 {
+		    font-size: 40px;
+		    line-height: 41px;
+				}
+
+#footer-wrapper {
+	background: #252122;
+}
+
+.specsrow {
+	padding-top: 0;
+}
 
 
 
@@ -385,12 +451,32 @@ background: white;
 
 
 
+
+
+
+
+
+/* Smartphones (portrait) ----------- */
+/*@media only screen and (max-width : 480px) {
+
+			.thespecs h2, .thecovers h2 {
+		    font-size: 10px;
+		    line-height: 11px;
+				}
+}
+*/
 
 
 
 
 
 	@media screen and (min-width: 737px) {
+
+
+
+
+
+
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -413,6 +499,8 @@ background: white;
 		.container {
 			width: 1200px;
 		}
+
+
 
 	}
 
@@ -447,6 +535,7 @@ background: white;
 
 	@media screen and (max-width: 736px) {
 
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 125%;
@@ -468,6 +557,8 @@ background: white;
 		.container {
 			width: 100% !important;
 		}
+
+
 
 	}
 
@@ -731,6 +822,7 @@ background: white;
 
 	@media screen and (min-width: 737px) {
 
+
 		.row > * {
 			padding: 50px 0 0 50px;
 		}
@@ -943,6 +1035,12 @@ background: white;
 		}
 
 	}
+
+
+
+
+
+
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
 
@@ -1170,6 +1268,8 @@ background: white;
 
 
 	@media screen and (max-width: 736px) {
+
+
 
 		.row > * {
 			padding: 20px 0 0 20px;
@@ -1421,7 +1521,8 @@ background: white;
 /* Basic */
 
 	body {
-		background: #252122;
+		/*background: #252122;*/
+		background: #fff;
 		/*background-image: url("images/bg02.png");*/
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
@@ -2554,7 +2655,15 @@ color: #34495E;
 
 	}
 
-/* Tablet */
+
+
+
+
+
+
+
+/* Tablet *//* Tablet *//* Tablet *//* Tablet *//* Tablet *//* Tablet */
+/*     1200          1200          1200          1200          1200     */
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
 
@@ -2658,8 +2767,28 @@ color: #34495E;
 			#intro .row:first-child {
 				display: block;
 			}
+			.tooltexts li {
+				float: left;
+
+			}
+
+
+
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Mobile */
 
@@ -2668,6 +2797,15 @@ color: #34495E;
 	}
 
 	@media screen and (max-width: 736px) {
+
+
+
+			.thespecs h2, .thecovers h2 {
+		    font-size: 36px;
+		    line-height: 37px;
+				}
+
+
 
 		/* Basic */
 
@@ -2937,7 +3075,7 @@ color: #34495E;
 			}
 
 			#header-wrapper {
-				padding: 1em 0;
+				padding: 1em 0 0;
 			}
 
 			#footer-wrapper {
@@ -3022,14 +3160,14 @@ color: #34495E;
 			zoom: 0.7;
 		}
 		#header .liftedlogo {
-		    max-width: 70px;
+		    max-width: 80px;
 		}
 
-.thespecs h2, .thecovers h2 {
+/*.thespecs h2, .thecovers h2 {
 			
-			    font-size: 40px;
-    line-height: 41px;
-		}
+			    font-size: 24px;
+    line-height: 24px;
+		}*/
 
 .includedtexts {
 	font-size: smaller;
@@ -3053,18 +3191,136 @@ ul.dates li {
     padding-top: 2em;
 }
 
-
-
-
-
 .thespecs .box, .thecovers, .tooldetails header {
-	zoom: 0.8;
+	zoom: 1;
+}
+
+
+#intro footer {
+	display: none;
+}
+#infobanner {
+	display: none;
+}
+.thespecs header { 
+	display: none; 
+}
+.mobiletitle {
+	display: block;
+}
+.tooldetails h1, .tooldetails h2 {
+	display: none;
+}
+
+
+/*
+.tooltexts li {
+
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+
+}
+
+ .tooltexts ol {
+   list-style: none;
+ }
+ .tooltexts li {
+   counter-increment: item;
+   margin-bottom: 5px;
+ }
+
+.tooltexts li:before {
+   margin-right: 10px;
+   content: counter(item);
+   background: lightblue;
+   border-radius: 100%;
+   color: white;
+   width: 1.2em;
+   text-align: center;
+   display: inline-block;
+ }
+*/
+
+.list-horizontal li {
+	display:inline-block;
+	float: unset;
+	list-style: none;
+}
+.list-horizontal li:before {
+	/*content: '.';*/
+/*	content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color:rgba(0,0,0,0.5);
+	font-size:11px;*/
+}
+.list-horizontal li:first-child:before {
+	/*content: '';*/
+}
+
+.swiper-container {
+    max-width: 90%;
+}
+.swiper-wrapper .swiper-slide {
+	top: -2em;
+}
+#main-wrapper {
+	padding-top: 0;
+}
+/*.thespecs div.row div:first-child, */
+.thespecs div.row div:nth-child(2) { 
+	padding-top: 0;
+ }
+
+.info10 {
+	margin-bottom: 0;
+}
+
+#intro { 
+display: none;
+ }
+ .swiper-container h3 {
+ 	display: none;
+ }
+.swiper-container {
+	margin-bottom: -1em !important;
+}
+
+
+}
+
+/*     END OF 7366          */
+
+
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 600px) {
+
+			.thespecs h2, .thecovers h2 {
+    font-size: 20px;
+    line-height: 21px;
+				}
 }
 
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3204,6 +3460,8 @@ color: #34495E;
 .introicons {
 	padding-top: 0;
 }
+
+
 
 
 
