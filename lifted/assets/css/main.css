@@ -462,6 +462,16 @@ ol.list-horizontal  {
 
 		.tooltexts li {
 				float: left;
+				    margin: 0;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: none;
+    color: #34495E;
+
 			}
 
 
@@ -2480,7 +2490,7 @@ color: #5C5C5C;
 			}
 
 			#main-wrapper {
-				padding: 2em 0 0em 0;
+				padding: 2em 0 2em 0;
 			}
 
 			#footer-wrapper {
@@ -2870,7 +2880,7 @@ color: #34495E;
 		/* Section/Article */
 
 			section, article {
-				margin: 0 0 1.5em 0 !important;
+				/*margin: 0 0 1.5em 0 !important;*/
 			}
 
 			header {
@@ -3327,6 +3337,7 @@ ol.list-horizontal  {
 }
 #main-wrapper {
 	padding-top: 0;
+	    padding-bottom: 0;
 }
 /*.thespecs div.row div:first-child, */
 .thespecs div.row div:nth-child(2) { 
@@ -3354,6 +3365,17 @@ display: none;
 	zoom: 0.7;
 }
 .includedtexts {
+	display: none;
+}
+.covertexts {
+    font-size: smaller;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+.covertexts li {
+	padding-right: 2%;
+}
+.covertextsinc li {
 	display: none;
 }
 
@@ -3587,6 +3609,9 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
     text-transform: none;
     color: #34495E;
 }
+.stockCA h2, .stockWA h2 {
+	background-color: white !important;
+}
 
 .main-wrapper-alt {
     padding: 0 2em 0 2em;
@@ -3630,7 +3655,14 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
     font-family: "Source Sans Pro";
     font-weight: 900;
 
-    
+
+}
+
+.coverrow .mobilecut {
+	margin-bottom: -4em;
+}
+.mobilecut .swiper-container {
+	zoom: 0.5;
 }
 
 
