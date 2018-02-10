@@ -393,7 +393,7 @@ background: white;
 
 display: inline;
 list-style-type: none;
-padding-right: 20px;
+padding-right: 10px;
   float: left;
    clear: both;
    width: 100$;
@@ -3242,10 +3242,14 @@ ul.dates li {
 .mobiletitle {
 	display: block;
 }
+
 .tooldetails h1, .tooldetails h2 {
 	display: none;
 }
 
+.coverrow .coverdetails h1, .coverrow .coverdetails  h2 {
+	display: none;
+}
 
 /*
 .tooltexts li {
@@ -3286,6 +3290,10 @@ ol.list-horizontal  {
 	float: unset;
 	list-style: none;
 	counter-increment: item;
+
+	    font-size: smaller;
+    line-height: 1em;
+
 }
 .list-horizontal li:before {
 	 content: counter(item) '.';
@@ -3348,6 +3356,11 @@ display: none;
     font-size: 20px;
     line-height: 21px;
 				}
+
+	.thecovers .major {
+		display: none;
+	}
+
 }
 
 
