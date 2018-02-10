@@ -3522,9 +3522,21 @@ color: #34495E;
 
 
 
+#gmap {
+	width: 100%;
+	height: 100%;
+}
 
+.main-wrapper-alt #footer {
+	/*background-color: #252122;*/
+}
 
+#map {
+	min-height: 400px;
 
+  height: 90%;
+  width: 100%;
+}
 
 
 
