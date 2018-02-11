@@ -115,9 +115,10 @@ float: right;
 }
 
 .theshipping {
-	font-size: smaller;
-	    float: right;
+    font-size: smaller;
+    float: right;
     clear: both;
+   /* line-height: 0.95em;*/
 }
 
 
@@ -3303,6 +3304,7 @@ padding-right: 20px;
 ol.list-horizontal  { 
     counter-reset: item;
     list-style-type: none;
+    margin-bottom: 0;
 }
 
 .list-horizontal li {
@@ -3391,8 +3393,8 @@ display: none;
 @media only screen and (max-width : 600px) {
 
 			.thespecs h2, .thecovers h2 {
-    font-size: 20px;
-    line-height: 21px;
+    font-size: 17px;
+    line-height: 18px;
 				}
 
 	.thecovers .major {
@@ -3481,11 +3483,11 @@ font-size: medium;
 	margin-bottom: 1em;
 }
 
-.swiper-container h3 {
+.swiper-container h3, .swiper-container-case h3  {
 text-align: center;
    font-family: inherit;
 			    font-weight: 500;
-			    font-size: 1em;
+			    font-size: xx-large;
 			    margin-bottom: 1em;
 }
 
@@ -3601,7 +3603,7 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 
  .stockCA p strong, .stockWA p strong  {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: medium;
+    font-size: larger;
     font-style: normal;
     font-weight: 700;
     letter-spacing: normal;
@@ -3609,7 +3611,7 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
     text-transform: none;
     color: #34495E;
 }
-.stockCA h2, .stockWA h2 {
+.stockCA h2, .stockWA h2, .followus h2 {
 	background-color: white !important;
 }
 
@@ -3661,12 +3663,20 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 .coverrow .mobilecut {
 	margin-bottom: -4em;
 }
-.mobilecut .swiper-container {
-	zoom: 0.5;
+
+.mobilecut  .swiper-container-case {
+	zoom: 0.115;	
 }
 
 
+.mobilecut .swiper-container {
+/*	zoom: 0.25;*/
+}
 
+
+.swiper-container-tool {
+	zoom: 0.5;
+}
 
 
 /*////*/
