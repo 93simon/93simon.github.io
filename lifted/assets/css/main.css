@@ -3269,12 +3269,18 @@ color: #5C5C5C;
 }
 .tooltexts {
 	font-size: small;
+
 }
 .covertexts {
 	font-size: smaller;	
 }
 
+.list-horizontal-inc {
 
+	    font-size: smaller;
+    line-height: initial;
+    display: none;
+}
    
 
 
@@ -3443,7 +3449,7 @@ display: none;
     line-height: 18px;
 				}
 
-	.thecovers .major {
+	.thecovers .major, .stockiststexts .major {
 		display: none;
 	}
 
@@ -3621,7 +3627,8 @@ color: #34495E;
 }
 
 #map {
-	min-height: 300px;
+	min-height: 240px;
+	max-height: 640px;
 
   height: 90%;
   width: 100%;
