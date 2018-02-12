@@ -2551,7 +2551,7 @@ color: #5C5C5C;
 					font-weight: 900;
 					font-size: 2.5em;
 					letter-spacing: -0.035em;
-					margin: 0 0 1em 0;
+					margin: 0 0 0.25em 0;
 				}
 
 		/* Nav */
@@ -3745,6 +3745,7 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 
 .thepricecta {
 	float: right;
+	zoom: 0.8;
 }
 .thebuynow {
 	clear: both;
@@ -3757,7 +3758,7 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 .toolinc1 {
 	margin-top: 1em;
 	display: inline-flex;
-	
+
 }
 
 
