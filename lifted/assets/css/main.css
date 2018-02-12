@@ -167,6 +167,7 @@ line-height: 20px;
 	width: 100%;
 	text-align: center;
 	margin-bottom: 1em !important;
+	/*	*/
 }
 
 
@@ -226,7 +227,7 @@ line-height: 20px;
 	/*margin-bottom: 0;
 	    font-size: smaller;
     line-height: initial;*/
-    padding-top: 1em;
+    /*padding-top: 1em;*/
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -430,6 +431,7 @@ padding-right: 10px;
 ol.list-horizontal  { 
     counter-reset: item;
     list-style-type: none;
+    line-height: initial;
 }
 
 .list-horizontal li {
@@ -494,7 +496,7 @@ ol.list-horizontal  {
 
 .infoban {
 
-	    max-width: 1200px;
+	    max-width: 1000px;
     margin: auto;
 }
 
@@ -3522,6 +3524,7 @@ text-align: center;
 			    font-weight: 500;
 			    font-size: xx-large;
 			    margin-bottom: 1em;
+			    display: none;
 }
 
 
@@ -3740,22 +3743,58 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 	zoom: 0.5;
 }
 
+.thepricecta {
+	float: right;
+}
+.thebuynow {
+	clear: both;
+	    clear: both;
+    width: 60%;
+    float: left;
+}
+
+
+.toolinc1 {
+	margin-top: 1em;
+	display: inline-flex;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*////*/
 
-/*
-	body{
-		font-family: arial, sans-serif;
-		font-weight: 400;
-		background: #eee;
-		font-size: 12px;
-		text-align: center;
-		margin: 0px;
-		padding: 0px;
-		cursor: default;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
-	*/
-	/* Mapify custom popOver example */
-	
+
+
+
+
+
+
+
+
+
