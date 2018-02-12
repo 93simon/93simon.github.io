@@ -3417,7 +3417,7 @@ display: none;
 }
 .covertexts {
     font-size: smaller;
-    display: inline-flex;
+    display: inline-block;
     margin-bottom: 0;
 }
 .covertexts li {
