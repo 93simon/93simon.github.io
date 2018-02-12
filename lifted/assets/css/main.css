@@ -612,7 +612,11 @@ ol.list-horizontal  {
 		}
 
 		.container {
-			width: 960px;
+			/*width: 960px;*/
+			width: 720px;
+		}
+		.infoban {
+			width: 720px;	
 		}
 		ul.dates p {
 			font-size: smaller;
@@ -2670,6 +2674,7 @@ color: #5C5C5C;
 
 			#intro {
 			/*	overflow: hidden;*/
+			/*display: none;*/
 			}
 
 				#intro section {
@@ -2757,7 +2762,8 @@ color: #5C5C5C;
 		/* Basic */
 
 			body {
-				min-width: 960px;
+				/*min-width: 960px;*/
+				min-width: 720px;
 				font-size: 11pt;
 			}
 
@@ -2784,11 +2790,11 @@ color: #5C5C5C;
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 1em 0 3em 0;
+				padding: 1em 0 0em 0;
 			}
 
 			#main-wrapper {
-				padding: 2.75em 0 2.75em 0;
+				padding: 0.75em 0 2.75em 0;
 			}
 
 			#footer-wrapper {
@@ -2824,6 +2830,7 @@ color: #5C5C5C;
 
 			#intro {
 				padding: 0;
+				display: none;
 			}
 
 				#intro section {
@@ -3247,7 +3254,7 @@ color: #5C5C5C;
 			zoom: 0.7;
 		}
 		#header .liftedlogo {
-		    max-width: 80px;
+		    max-width: 50px;
 		}
 
 /*.thespecs h2, .thecovers h2 {
@@ -3266,6 +3273,10 @@ color: #5C5C5C;
 .covertexts {
 	font-size: smaller;	
 }
+
+
+   
+
 
 ul.dates li .date  {
 float: left;
@@ -3570,6 +3581,8 @@ letter-spacing: normal;
 line-height: 24px;
 text-transform: none;
 color: #34495E;
+
+	 list-style: initial;
 }
 
 
