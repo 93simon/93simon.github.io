@@ -492,6 +492,36 @@ ol.list-horizontal  {
 }
 
 
+.infoban {
+
+	    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2366,7 +2396,7 @@ color: #5C5C5C;
 		}
 
 /* Desktop */
-
+/*    7377     */
 	@media screen and (min-width: 737px) {
 
 		/* Basic */
@@ -2487,7 +2517,7 @@ color: #5C5C5C;
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 4.5em 0 4em 0;
+				padding: 1em 0 4em 0;
 			}
 
 			#main-wrapper {
@@ -2652,13 +2682,13 @@ color: #5C5C5C;
 				#intro p, .details {
 					margin: 0;
 					font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-transform: none;
-color: #34495E;
+					font-size: 16px;
+					font-style: normal;
+					font-weight: normal;
+					letter-spacing: normal;
+					line-height: 24px;
+					text-transform: none;
+					color: #34495E;
 				}
 
 				#intro .middle {
@@ -2752,7 +2782,7 @@ color: #34495E;
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 3em 0;
+				padding: 1em 0 3em 0;
 			}
 
 			#main-wrapper {
@@ -3257,6 +3287,9 @@ ul.dates li {
 #infobanner {
 	display: none;
 }
+
+
+
 .thespecs header { 
 	display: none; 
 }
@@ -3633,18 +3666,8 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 	cursor: pointer;
 }
 
-.stockiststexts h2 {
-    /* zoom: 0.85; */
-/*    text-transform: uppercase;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: normal;
-    line-height: 20px;
-    text-transform: uppercase;*/
+.stockiststexts .major h2 {
 
-        /* background: #f7f7f7 url(images/bg02.png); */
     background: #f7f7f7;
     font-family: Montserrat;
     font-size: 18px;
@@ -3657,6 +3680,45 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
     font-family: "Source Sans Pro";
     font-weight: 900;
 
+}
+
+
+
+
+.stockiststexts h2 {
+    /* zoom: 0.85; */
+/*    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-transform: uppercase;*/
+
+        /* background: #f7f7f7 url(images/bg02.png); */
+/*    background: #f7f7f7;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.36000001430511475px;
+    line-height: 20px;
+    text-transform: none;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+    font-weight: 900;
+*/
+    /*padding-top: 1em;*/
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: none;
+    color: #34495E;
+    margin-bottom: 0;
 
 }
 
