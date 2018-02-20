@@ -54,7 +54,9 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-
+	html {
+		    overflow-x: hidden;
+	}
 /* Box Model */
 
 	*, *:before, *:after {
@@ -511,6 +513,7 @@ ol.list-horizontal  {
     line-height: initial;
     
         display: inline-block;
+        margin-bottom: 0;
 }
    
 
@@ -621,8 +624,8 @@ ol.list-horizontal  {
 		}
 
 		.container {
-			/*width: 960px;*/
-			width: 720px;
+			width: 960px;
+			/*width: 720px;*/
 		}
 		.infoban {
 			width: 720px;	
@@ -2960,10 +2963,10 @@ color: #5C5C5C;
 			button,
 			.button {
 				position: relative;
-				padding: 0.65em 0 0.65em 0 !important;
+				padding: 0.265em 0 0.265em 0 !important;
 				width: 100%;
 				text-align: center;
-				font-size: 1.25em;
+				font-size: 1.0em;
 				margin: 0.25em 0 0.25em 0;
 			}
 
@@ -3263,7 +3266,7 @@ color: #5C5C5C;
 			zoom: 0.7;
 		}
 		#header .liftedlogo {
-		    max-width: 50px;
+		    max-width: 80px;
 		}
 
 /*.thespecs h2, .thecovers h2 {
@@ -3393,7 +3396,7 @@ ol.list-horizontal  {
 }
 
 .swiper-container {
-    max-width: 50%;
+ /*   max-width: 50%;*/
 }
 .swiper-wrapper .swiper-slide {
 	top: -2em;
@@ -3401,6 +3404,11 @@ ol.list-horizontal  {
 #main-wrapper {
 	padding-top: 0;
 	    padding-bottom: 0;
+}
+
+.thespecs {
+
+	margin-top: 1em;
 }
 /*.thespecs div.row div:first-child, */
 .thespecs div.row div:nth-child(2) { 
@@ -3469,7 +3477,13 @@ display: none;
 
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 1000px) {
+	.container {
+		width: 100%;
+	}
 
+}
 
 
 

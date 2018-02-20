@@ -214,7 +214,8 @@
 													        <div class="swiper-slide"><a class="image featured"><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/368/toker-tool_pic_2.__39629.1501144287.jpg?c=2&imbypass=on" alt="" /></a><h3>Pick</h3></div>
 													        <div class="swiper-slide"><a class="image featured"><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/367/toker-tool_clip_2__37372.1501144286.jpg?c=2&imbypass=on" alt="" /></a><h3>Clip</h3></div>
 													    </div>
-													
+														<div class="swiper-button-prev"></div>
+													    <div class="swiper-button-next"></div>
 
 													</div>
 													<div>
@@ -256,17 +257,13 @@
 													<div class="toolinc2">
 													<p class="includedtexts"><b>Included:</b><br>
 														<ol class="tooltexts list-horizontal-inc">
-													
-
-														<li>1 Toker Multi-Tool</li>
-														<li>1 Nylon Carry Case</li>
+															<li>1 Toker Multi-Tool</li>
+															<li>1 Nylon Carry Case</li>
 														</ol>
-														</p>
-														</div>
-
-														
-														<div class="thebuynow"><a href="#" class="button icon fa-file-text buynow">Buy Now</a></div>
-														<div class="thepricecta">
+													</p>
+													</div>
+													<div class="thebuynow"><a href="#" class="button icon fa-file-text buynow">Buy Now</a></div>
+													<div class="thepricecta">
 													<span class="theprice">$45.00</span>													
 													<span class="theshipping">FREE SHIPPING!</span>
 													</div>
@@ -274,24 +271,6 @@
 													
 
 
-															
-														<!-- <h5>10 Convenient, problem solving tools for the modern smoker</h5>
-														<!-- <p>Posted 45 minutes ago</p> -->
-													
-													
-														
-														
-
-
-													
-
-
-													<!-- <footer>
-														<ul class="actions">
-															<li><a href="#" class="button icon fa-file-text">Continue Reading</a></li>
-															<li><a href="#" class="button alt icon fa-comment">33 comments</a></li>
-														</ul>
-													</footer> -->
 												</section>
 											</div>
 										</div>
@@ -621,6 +600,11 @@
       scrollbar: {
       	hide: true,
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
