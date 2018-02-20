@@ -604,7 +604,7 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      
+
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -634,10 +634,11 @@
 
 	mySwiper.on('slideChange', function () {
 
-	$('.tooldetails').children().removeClass('slideActive');
+	$('.specsrow').children().removeClass('slideActive');
+	$('.mobiletitle').children().removeClass('slideActive');
 	$('.tooltexts').children().removeClass('slideActive');
 
-	if(mySwiper.realIndex == 0 ) $('.info10').addClass('slideActive');
+
 	if(mySwiper.realIndex == 1 ) $('.tooltexts li:first-child').addClass('slideActive'); 
 
 	if(mySwiper.realIndex == 2 ) $('.tooltexts li:nth-child(2)').addClass('slideActive');
@@ -649,7 +650,7 @@
 	if(mySwiper.realIndex == 8 ) $('.tooltexts li:nth-child(8)').addClass('slideActive'); 
 	if(mySwiper.realIndex == 9 ) $('.tooltexts li:nth-child(9)').addClass('slideActive'); 
 	if(mySwiper.realIndex == 10 ) $('.tooltexts li:nth-child(10)').addClass('slideActive'); 
-
+	if(mySwiper.realIndex == 0 ) $('.specsrow .info10').addClass('slideActive');
 	//if(mySwiper.realIndex == 11 ) $('.tooltexts li:nth-child(11)').addClass('slideActive'); 
 	// if(mySwiper.realIndex == 4 )
 	  console.log('slide changed ' + mySwiper.realIndex);

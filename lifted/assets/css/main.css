@@ -469,9 +469,9 @@ ol.list-horizontal  {
 				float: left;
 				    margin: 0;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
+/*    font-size: 16px;*/
+/*    font-style: normal;
+    font-weight: normal;*/
     letter-spacing: normal;
     line-height: 24px;
     text-transform: none;
@@ -3433,7 +3433,7 @@ display: none;
 }
 
 .swiper-container-tool, .swiper-container-case {
-	zoom: 0.75;
+	/*zoom: 0.75;*/
 }
 .includedtexts {
 	display: none;
@@ -3608,9 +3608,9 @@ ul.dates p {
 
 ol {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: normal;
+/*font-size: 16px;*/
+/*font-style: normal;
+font-weight: normal;*/
 letter-spacing: normal;
 line-height: 24px;
 text-transform: none;
