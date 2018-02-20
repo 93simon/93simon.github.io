@@ -505,11 +505,20 @@ ol.list-horizontal  {
 
 
 
+.list-horizontal-inc {
+
+	    font-size: smaller;
+    line-height: initial;
+    
+        display: inline-block;
+}
+   
 
 
 
-
-
+.swiper-container-tool {
+	zoom: 0.5;
+}
 
 
 
@@ -3268,7 +3277,7 @@ color: #5C5C5C;
 	line-height: initial;
 }
 .tooltexts {
-	font-size: small;
+	font-size: larger;
 
 }
 .covertexts {
@@ -3279,7 +3288,8 @@ color: #5C5C5C;
 
 	    font-size: smaller;
     line-height: initial;
-    display: none;
+    
+        display: inline-block;
 }
    
 
@@ -3384,7 +3394,7 @@ ol.list-horizontal  {
 }
 
 .swiper-container {
-    max-width: 80%;
+    max-width: 50%;
 }
 .swiper-wrapper .swiper-slide {
 	top: -2em;
@@ -3422,16 +3432,21 @@ display: none;
 	display: none;
 }
 .covertexts {
-    font-size: smaller;
+    font-size: larger;
     display: inline-block;
     margin-bottom: 0;
 }
 .covertexts li {
-	padding-right: 2%;
+	padding-right: 0%;
 }
 .covertextsinc li {
 	display: none;
 }
+.swiper-container-tool {
+	zoom: 0.5;
+}
+
+
 
 }
 
@@ -3445,8 +3460,8 @@ display: none;
 @media only screen and (max-width : 600px) {
 
 			.thespecs h2, .thecovers h2 {
-    font-size: 17px;
-    line-height: 18px;
+    font-size: 37px;
+    line-height: 38px;
 				}
 
 	.thecovers .major, .stockiststexts .major {
@@ -3759,9 +3774,7 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 }
 
 
-.swiper-container-tool {
-	zoom: 0.5;
-}
+
 
 .thepricecta {
 	float: right;
@@ -3772,6 +3785,7 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 	    clear: both;
     width: 60%;
     float: left;
+/*    margin-top: 1em;*/
 }
 
 
