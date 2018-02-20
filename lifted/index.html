@@ -460,7 +460,7 @@
 									<div class="gmaplist"></div>
 									
 									
-									<p class="ca-lung">
+									<p class="ca-lung"><!-- <img src="http://www.gstatic.com/mapspro/images/stock/1379-rec-park.png"> -->
 									<strong>Lung Doctor</strong><br>
 									843 S Escondido Blvd, <br>
 									Escondido, CA 92025<br>
@@ -999,10 +999,11 @@ $(function(){
 
  	 	var broadway = {
 		info: '<strong>Lung Doctor</strong><br>\
-					5224 N Broadway St<br> Chicago, IL 60640<br>\
+					843 S Escondido Blvd<br> Escondido, CA 92025<br>\+1 760-233-4171<br>\
 					<a href="https://goo.gl/maps/jKNEDz4SyyH2">Get Directions</a>',
 		lat: 33.1133038,
 		long: -117.0816796,
+
 		place_id: 'ChIJRUX234H024AR_gMzPVXISL4'
 
 	};
@@ -1062,6 +1063,7 @@ $(function(){
 	for (i = 0; i < locations.length; i++) {
 		marker = new google.maps.Marker({
 			// center: 'location' + i,
+			icon: 'http://www.gstatic.com/mapspro/images/stock/1379-rec-park.png',
 			position: new google.maps.LatLng(locations[i][1], locations[i][2]),
 			// place: {
 			// 	placeId: locations[i][0].place_id

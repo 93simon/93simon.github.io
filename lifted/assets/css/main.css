@@ -2904,8 +2904,8 @@ color: #5C5C5C;
 
 
 			.thespecs h2, .thecovers h2 {
-		    font-size: 36px;
-		    line-height: 37px;
+		    font-size: 26px;
+		    line-height: 27px;
 				}
 
 
@@ -3277,11 +3277,10 @@ color: #5C5C5C;
 	line-height: initial;
 }
 .tooltexts {
-	font-size: larger;
-
+	/*font-size: larger;*/
 }
 .covertexts {
-	font-size: smaller;	
+	/*font-size: smaller;	*/
 }
 
 .list-horizontal-inc {
@@ -3289,7 +3288,7 @@ color: #5C5C5C;
 	    font-size: smaller;
     line-height: initial;
     
-        display: inline-block;
+        display: none;
 }
    
 
@@ -3431,11 +3430,11 @@ display: none;
 .includedtexts {
 	display: none;
 }
-.covertexts {
+/*.covertexts {
     font-size: larger;
     display: inline-block;
     margin-bottom: 0;
-}
+}*/
 .covertexts li {
 	padding-right: 0%;
 }
@@ -3642,7 +3641,7 @@ color: #34495E;
 }
 
 #map {
-	min-height: 240px;
+	min-height: 300px;
 	max-height: 640px;
 
   height: 90%;
@@ -3751,7 +3750,7 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
     letter-spacing: normal;
     line-height: 24px;
     text-transform: none;
