@@ -3424,8 +3424,8 @@ display: none;
 	margin-bottom: -1em;
 }
 
-.swiper-container-tool, .swiper-container-case{
-	zoom: 0.7;
+.swiper-container-tool, .swiper-container-case {
+	zoom: 0.75;
 }
 .includedtexts {
 	display: none;
@@ -3441,9 +3441,9 @@ display: none;
 .covertextsinc li {
 	display: none;
 }
-.swiper-container-tool {
-	zoom: 0.5;
-}
+/*.swiper-container-tool {
+	zoom: 0.75;
+}*/
 
 
 
