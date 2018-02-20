@@ -3396,7 +3396,7 @@ ol.list-horizontal  {
 }
 
 .swiper-container {
- /*   max-width: 50%;*/
+    max-width: 80%;
 }
 .swiper-wrapper .swiper-slide {
 	top: -2em;
@@ -3624,8 +3624,9 @@ color: #34495E;
 /*//////////*/
 
 
-
-
+.stockiststexts {
+	padding-top: 1em;
+}
 
 .stockiststexts b {
 	font-size: x-large;
@@ -3815,8 +3816,12 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 
 
 
-
-
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+	left: 0 !important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+	right: 0 !important;
+}
 
 
 
