@@ -17,7 +17,7 @@
   <style>
     html, body {
       position: relative;
-      height: 100%;
+    /*  height: 100%;*/
     }
     body {
       background: #fff;
@@ -32,8 +32,10 @@
      /* max-height: 20vh;*/
     }
     .swiper-container {
-      width: 100%;
+       width: 100%;
       height: 100%;
+      margin: auto;
+      top: 2em;
       /*max-width: 1920px;*/
       /*overflow-y: visible;*/
     }
@@ -64,8 +66,8 @@
 
 
 .swiper-infos {
-      position: absolute;
-    bottom: 7%;
+      position: fixed;
+    bottom: 0%;
     margin: auto;
     text-align: center;
     width: 100%;
@@ -180,6 +182,13 @@ padding: 1%;
   position: relative;
     padding: 0 4em;
     font-family: 'Oswald', sans-serif;
+        background: rgba(255,255,255,0.51);
+    font-size: smaller;
+    margin-top: 0vh;
+    z-index: 999;
+    width: 50%;
+  margin: auto;
+
 }
 #logoWrapper { text-align: center; }
 #logoImage img {
@@ -323,8 +332,16 @@ display: none;
     width: 100%;
     
   }
+
+  .mobile-texts {
+   /* margin-top: -10em;*/
+    z-index: 999999;  
+  }
 }
 
+
+
+/*//.mobile-texts*/
 
 
 
@@ -483,7 +500,7 @@ console.log(objs);
 
 
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 0,
       grabCursor: true,
       autoHeight: true,

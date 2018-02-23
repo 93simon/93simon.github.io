@@ -3824,8 +3824,14 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 }
 
 
+.imgpart {
+	width: 100%;
+}
 
-
+.swiper-container-fade {
+	/*max-width: 1000px;*/
+	margin: auto;
+}
 
 
 
