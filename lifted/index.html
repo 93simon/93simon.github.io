@@ -91,14 +91,21 @@
 								</header>
 								</section> -->
 
-									
+							
+
 
 							<!-- INFO BANNER -->
 							<section id="infobanner" class="infoban" style="">
-								<header>
+
+						
+
+
+								<header id="#area">
+									<div id="rectangle">BUY NOW</div>
+									<div id="draggable"></div>
 
 									<!-- <img src="https://93simon.github.io/lifted/images/header8.jpg" alt="" usemap="#Map" width=1605px height=816px/> -->
-									<img src="images/header8.jpg" alt="" usemap="#Map" width=100% height=100%/>
+									<img  src="images/header8.jpg" alt="" usemap="#Map" width=100% height=100%/>
 										<!-- <map name="Map" id="Map">
 										    <area  data-nbmembre="1" alt="Saint-Louis" title="Scissors" alt="" title=""  shape="poly" coords="1053,459,1342,287,1295,198,1229,203,1145,275,1007,323,1006,333,1034,348,1053,388,1043,457" />
 										    <area  data-nbmembre="2" alt="Saint-Louis" title="Packer" alt="" title=""  shape="poly" coords="1077,80,1123,86,1081,364,1057,381,1036,350" />
@@ -120,14 +127,16 @@
 							</section>
 							
 
-
-
 						
 
 
 
 						<!-- Intro -->
 							<section id="intro" class="container">
+								<header class="major">
+											<h2>10-In-1 Toker Multi-Tool</h2>
+										</header>
+
 								<div class="row">
 									<div class="4u 4u(mobile) introicons">
 										<section class="first">
@@ -178,7 +187,7 @@
 								<!-- Blog -->
 									<section class="thespecs">
 										<header class="major">
-											<h2>Tools</h2>
+											<h2>10-In-1 Toker Multi-Tool</h2>
 										</header>
 										<div class="row">
 
@@ -196,7 +205,9 @@
 													<!-- width="1280px" height="1280px" -->
 
 				 									<!-- <a class="image featured tokerimg1 "><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/344/toker-tool_top-down_1__02888.1495352423.jpg?c=2&imbypass=on&imbypass=on" alt="" /></a>  -->
-				 									<div class="mobiletitle"><h1>Lifted Industry</h1><h2 class="info10">10-In-1 Toker Multi-Tool</h2></div>
+				 									<div class="mobiletitle">
+				 										
+				 									<h2 class="info10">10-In-1 Toker Multi-Tool</h2></div>
 
 				 									<div class="swiper-container-tool swiper-container">
 													    <!-- Additional required wrapper -->
@@ -562,7 +573,125 @@
     var swiper = new Swiper('.swiper-container');
   </script> -->
 
+
+  
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.4.4.min.js"></script>
+
+  
+<script type="text/javascript">
+	
+$(function() {
+    var $d = $("#draggable");
+
+    var x1, x2,
+        y1, y2,
+        t1, t2;  // Time
+
+    var minDistance = 40; // Minimum px distance object must be dragged to enable momentum.
+
+    var onMouseMove = function(e) {
+        var mouseEvents = $d.data("mouseEvents");
+        if (e.timeStamp - mouseEvents[mouseEvents.length-1].timeStamp > 40) {
+            mouseEvents.push(e);
+            if (mouseEvents.length > 2) {
+                mouseEvents.shift();
+            }
+        }
+    }
+
+    var onMouseUp = function() {
+        $(document).unbind("mousemove mouseup");
+    }
+
+    $d.draggable({
+        start: function(e, ui) {
+            $d.data("mouseEvents", [e]);
+            $(document)
+                .mousemove(onMouseMove)
+                .mouseup(onMouseUp);
+        },
+        stop: function(e, ui) {
+            $d.stop();
+            $d.css("text-indent", 100);
+
+            var lastE = $d.data("mouseEvents").shift();
+
+            x1 = lastE.pageX;
+            y1 = lastE.pageY;
+            t1 = lastE.timeStamp;
+            x2 = e.pageX;
+            y2 = e.pageY;
+            t2 = e.timeStamp;
+
+            // Deltas
+            var dX = x2 - x1,
+                dY = y2 - y1,
+                dMs = Math.max(t2 - t1, 1);
+
+            // Speeds
+            var speedX = Math.max(Math.min(dX/dMs, 1), -1),
+                speedY = Math.max(Math.min(dY/dMs, 1), -1);
+
+            // Distance moved (Euclidean distance)
+            var distance = Math.sqrt(Math.pow(x1-x2, 2) + Math.pow(y1-y2, 2));
+
+            if (distance > minDistance) {
+                // Momentum
+                var lastStepTime = new Date();
+                $d.animate({ textIndent: 0 }, {
+                    duration: Math.max(Math.abs(speedX), Math.abs(speedY)) * 2000,
+                    step: function(currentStep){
+                        speedX *= (currentStep / 100);
+                        speedY *= (currentStep / 100);
+
+                        var now = new Date();
+                        var stepDuration = now.getTime() - lastStepTime.getTime();
+
+                        lastStepTime = now;
+
+                        var position = $d.position();
+
+                        var newLeft = (position.left + (speedX * stepDuration / 4)),
+                            newTop = (position.top + (speedY * stepDuration / 4));
+
+                        $d.css({
+                            left: newLeft+"px",
+                            top: newTop+"px"
+                        });
+                    }
+                });
+            }
+        }
+    });
+});
+
+
+</script>
+
  <script>
+
+$(document).on('mousemove', function (e) {
+    $('#rectangle').css({
+        left: e.pageX,
+        top: e.pageY
+    });
+});
+
+$("#area").mouseleave(function() {
+	$("#rectangle").hide();
+});
+
+$("#area").mouseenter(function() {
+	$("#rectangle").show();
+});
+
+
+
+
+
+
+
  	// var swiperparts = new Swiper('.swiper-container-swiperparts', {
   //   	// lazy: true,
   //    // slidesPerView: 'auto',
@@ -637,19 +766,19 @@
 	$('.specsrow').children().removeClass('slideActive');
 	$('.mobiletitle').children().removeClass('slideActive');
 	$('.tooltexts').children().removeClass('slideActive');
+	$('.tooldetails').children().removeClass('slideActive');
 
 
-	if(mySwiper.realIndex == 1 ) $('.tooltexts li:first-child').addClass('slideActive'); 
-
-	if(mySwiper.realIndex == 2 ) $('.tooltexts li:nth-child(2)').addClass('slideActive');
-	if(mySwiper.realIndex == 3 ) $('.tooltexts li:nth-child(3)').addClass('slideActive');
-	if(mySwiper.realIndex == 4 ) $('.tooltexts li:nth-child(4)').addClass('slideActive'); 
-	if(mySwiper.realIndex == 5 ) $('.tooltexts li:nth-child(5)').addClass('slideActive'); 
-	if(mySwiper.realIndex == 6 ) $('.tooltexts li:nth-child(6)').addClass('slideActive'); 
-	if(mySwiper.realIndex == 7 ) $('.tooltexts li:nth-child(7)').addClass('slideActive'); 
-	if(mySwiper.realIndex == 8 ) $('.tooltexts li:nth-child(8)').addClass('slideActive'); 
-	if(mySwiper.realIndex == 9 ) $('.tooltexts li:nth-child(9)').addClass('slideActive'); 
-	if(mySwiper.realIndex == 10 ) $('.tooltexts li:nth-child(10)').addClass('slideActive'); 
+	if(mySwiper.realIndex == 1 ) $('.toolinc1 .tooltexts li:first-child').addClass('slideActive'); 
+	if(mySwiper.realIndex == 2 ) $('.toolinc1 .tooltexts li:nth-child(2)').addClass('slideActive');
+	if(mySwiper.realIndex == 3 ) $('.toolinc1 .tooltexts li:nth-child(3)').addClass('slideActive');
+	if(mySwiper.realIndex == 4 ) $('.toolinc1 .tooltexts li:nth-child(4)').addClass('slideActive'); 
+	if(mySwiper.realIndex == 5 ) $('.toolinc1 .tooltexts li:nth-child(5)').addClass('slideActive'); 
+	if(mySwiper.realIndex == 6 ) $('.toolinc1 .tooltexts li:nth-child(6)').addClass('slideActive'); 
+	if(mySwiper.realIndex == 7 ) $('.toolinc1 .tooltexts li:nth-child(7)').addClass('slideActive'); 
+	if(mySwiper.realIndex == 8 ) $('.toolinc1 .tooltexts li:nth-child(8)').addClass('slideActive'); 
+	if(mySwiper.realIndex == 9 ) $('.toolinc1 .tooltexts li:nth-child(9)').addClass('slideActive'); 
+	if(mySwiper.realIndex == 10 ) $('.toolinc1 .tooltexts li:nth-child(10)').addClass('slideActive'); 
 	if(mySwiper.realIndex == 0 ) $('.specsrow .info10').addClass('slideActive');
 	//if(mySwiper.realIndex == 11 ) $('.tooltexts li:nth-child(11)').addClass('slideActive'); 
 	// if(mySwiper.realIndex == 4 )
