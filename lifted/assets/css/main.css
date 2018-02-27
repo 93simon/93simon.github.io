@@ -360,12 +360,13 @@ ul.dates li {
 
 
 #header-wrapper {
-	background:#fff;
+	/*background:#fff;*/
 /*	background:#fff  url(https://93simon.github.io/lifted/images/header8.jpg);
 
         background-position: center 2em;
     background-repeat: no-repeat;
     background-size: contain;*/
+    z-index: 1111;
 }
 
 .infobannerimg {
@@ -434,6 +435,7 @@ ol.list-horizontal  {
     counter-reset: item;
     list-style-type: none;
     line-height: initial;
+    margin-bottom: 0;
 }
 
 .list-horizontal li {
@@ -521,6 +523,11 @@ ol.list-horizontal  {
 
 .swiper-container-tool {
 	zoom: 0.5;
+}
+
+
+.toolsarticle {
+	padding-top: 0 !important;
 }
 
 
@@ -2430,7 +2437,7 @@ color: #5C5C5C;
 
 			h3 {
 				font-size: 1.35em;
-				text-align: center;
+				/*text-align: center;*/
 			}
 
 		/* Section/Article */
@@ -2467,7 +2474,7 @@ color: #5C5C5C;
 
 				.box.post header {
 					padding-top: 1em;
-					margin: 0 0 2em 0;
+					margin: 0 0 0em 0;
 				}
 
 				.box.post h2 {
@@ -2535,7 +2542,7 @@ color: #5C5C5C;
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 1em 0 4em 0;
+				padding: 1em 0 2em 0;
 			}
 
 			#main-wrapper {
@@ -2949,6 +2956,9 @@ color: #5C5C5C;
 			.box {
 				padding: 25px 15px 20px 15px;
 			}
+			.toolsarticle {
+				padding-top: 2em !important;
+			}
 
 				.box .image.featured {
 					left: 15px;
@@ -3150,9 +3160,13 @@ color: #5C5C5C;
 					width: 5em;
 				}
 
+#navPanel .depth-0:hover {
+background: black;
+color: white;
+}
 				#navPanel .depth-0 {
 					color: #000;
-					font-size: xx-large;
+					font-size: large;
 /*					font-family: Montserrat;
     font-size: x-small;
     font-style: normal;
@@ -3161,7 +3175,9 @@ color: #5C5C5C;
     line-height: 20px;*/
 
     font-family: 'Montserrat', sans-serif;
-
+        line-height: initial;
+    height: initial;
+margin: 1em;
 
     /* text-transform: uppercase; */
 
@@ -3483,8 +3499,10 @@ display: none;
 @media only screen and (max-width : 600px) {
 
 			.thespecs h2, .thecovers h2 {
-    font-size: 17px;
-    line-height: 18px;
+  /*  font-size: 17px;
+    line-height: 18px;*/
+    font-size: 30px;
+    line-height: 29px;
 				}
 
 	.thecovers .major, .stockiststexts .major {
@@ -3697,10 +3715,15 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 
 
  .stockCA, .stockWA  {
-		    width: 50%;
+		    width: 49%;
     margin: auto;
     float: left;
 }
+
+ .stockCA header, .stockWA header  {
+ 	margin-bottom: 0;
+ }
+
 
  .stockCA p strong, .stockWA p strong  {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -3818,11 +3841,30 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 /*    margin-top: 1em;*/
 }
 
+.thepricecta .thebuynow {
+	float: right;
+	width: 100%;
+}
 
 .toolinc1 {
-	margin-top: 1em;
+	margin-top: 0em;
 	display: inline-flex;
+	    margin-bottom: 1em;
+}
 
+.toolinc3 {
+	margin-top: 1em;
+	font-size: small;
+    width: 100%;
+    float: left;
+    margin: 0 0 1em;
+}
+.toolinc4 {
+	margin-top: 1em;
+	
+    width: 100%;
+    float: left;
+    margin: 0 0 1em;
 }
 
 
@@ -3857,19 +3899,34 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 }
 
 
+#draggable {
+    background: #3333FF;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
 
 
 
-
+.swiper-container-horizontal>.swiper-scrollbar {
+	 position: relative !important; 
+     left: 1%; 
+     bottom: 3px; 
+     margin-top: 1%;
+   /* z-index: 50;
+    height: 5px;
+    width: 98%;*/
+}
 
 /*////*/
 
+.toolheader {
+	padding-bottom: 0;
+}
 
 
-
-
-
-
-
+#form-action-addToCart {
+	    margin-bottom: 2em;
+}
 
 
