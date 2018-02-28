@@ -2920,7 +2920,7 @@ color: #5C5C5C;
 			.thespecs h2, .thecovers h2 {
 		 /*   font-size: 26px;
 		    line-height: 27px;*/
-		    font-size: x-large;
+		    font-size: xx-large;
 				}
 
 
@@ -3505,8 +3505,8 @@ display: none;
 			.thespecs h2, .thecovers h2 {
   /*  font-size: 17px;
     line-height: 18px;*/
-    font-size: 30px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 19px;
 				}
 
 	.thecovers .major, .stockiststexts .major {
