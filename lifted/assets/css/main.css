@@ -3507,7 +3507,7 @@ display: none;
     line-height: 18px;*/
   /*  font-size: 20px;
     line-height: 19px;*/
-        font-size: larger;
+        font-size: x-large;
     line-height: initial;
 
 				}
@@ -3948,6 +3948,9 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 }
 
 
+.swiper-scrollbar-drag {
+	height: 4px !important;
+}
 
 
 
@@ -3968,3 +3971,4 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 /*////*/
 
 
+ 

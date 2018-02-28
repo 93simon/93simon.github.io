@@ -223,13 +223,15 @@
 													        <div class="swiper-slide"><a class="image featured"><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/368/toker-tool_pic_2.__39629.1501144287.jpg?c=2&imbypass=on" alt="" /></a><h3>Pick</h3></div>
 													        <div class="swiper-slide"><a class="image featured"><img src="http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/14/367/toker-tool_clip_2__37372.1501144286.jpg?c=2&imbypass=on" alt="" /></a><h3>Clip</h3></div>
 													    </div>
-														<div class="swiper-button-prev"></div>
-													    <div class="swiper-button-next"></div>
+													<!-- 	<div class="swiper-button-prev"></div>
+													    <div class="swiper-button-next"></div> -->
 
 													</div>
 													<div>
 														<div class="swiper-pagination-holder">
-															 <div class="swiper-pagination"></div>
+															 <!-- <div class="swiper-pagination"></div> -->
+															     <div class="swiper-scrollbar"></div>
+
 														</div>
 													</div>
 
@@ -643,6 +645,14 @@ $("#area").mouseenter(function() {
         el: '.swiper-pagination',
         clickable: true,
       },
+
+        scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: false,
+      },
+
+
+
     });
     var swiper2 = new Swiper('.swiper-container-case', {
     	// lazy: true,
