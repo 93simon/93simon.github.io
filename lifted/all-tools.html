@@ -254,7 +254,36 @@ Clip - Roach Clip<br>
 <p>
 
 <!-- 	IMAGE HERE     -->
-<img src="images/side1a.png" style="    zoom: 0.65">
+<!-- <img src="images/side1a.png" class="sideimg"> -->
+
+
+
+<div class="swiper-container-side">
+    <div class="swiper-wrapper">
+    
+
+	
+ 	<div class="swiper-slide" style=""><img class="" src="images/side1a.png"></div>
+	<div class="swiper-slide" style=""><img class="" src="images/side1a.png"></div>
+
+	
+	
+
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-black"></div>
+    <!-- Add Arrows -->
+<!--     <div class="swiper-button-next swiper-button-black"></div>
+    <div class="swiper-button-prev swiper-button-black"></div> -->
+
+    <div class="swiper-scrollbar"></div>
+
+  </div>
+
+
+
+
 
 								</p>
 								</div>
@@ -516,6 +545,32 @@ Treat sticky, or affected tool surfaces with a non-abrasive fabric cloth, or pad
 
 
  <script>
+
+
+ //swiper-container-side
+
+
+    var swipercase = new Swiper('.swiper-container-side', {
+    	// lazy: true,
+     // slidesPerView: 'auto',
+     // loop: true,
+      speed: 800,
+      grabCursor: true,
+      spaceBetween: 40,
+      // autoplay: true,
+      // zoom: true,
+      autoHeight: false,
+       scrollbar: {
+        el: '.swiper-scrollbar-side',
+        hide: false,
+      },
+      pagination: {
+        el: '.swiper-pagination2',
+        clickable: true,
+      },
+    });
+
+
     var swiper = new Swiper('.swiper-container-fade', {
   //     spaceBetween: 300,
   // //    mousewheel: true,
