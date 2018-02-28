@@ -3537,7 +3537,7 @@ and (orientation : portrait) {
 		.thespecs h2, .thecovers h2 {
 			font-size: x-large;
 			line-height: initial;
-			display: none;
+		/*	display: none;*/
 		}
 
 
