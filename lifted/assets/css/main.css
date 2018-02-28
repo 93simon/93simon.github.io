@@ -3537,9 +3537,9 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
 
 .thespecs h2, .thecovers h2 {
-        font-size: xx-large;
+        font-size: x-large;
     line-height: initial;
-
+		display: none;
 				}
 
 
