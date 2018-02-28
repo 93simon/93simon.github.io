@@ -3435,7 +3435,7 @@ ol.list-horizontal  {
     max-width: 80%;
 }
 .swiper-wrapper .swiper-slide {
-	top: -2em;
+	/*top: -2em;*/
 }
 #main-wrapper {
 	padding-top: 0;
@@ -3968,15 +3968,54 @@ body.homepage .main-wrapper-alt .stockiststexts div.row .8u section {
 }
 
 
+.swiper-container-side {
+/*	overflow: hidden;*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+ .swiper-container-side .swiper-slide {
+    background-position: center;
+    background-position: center;
+    background-size: contain;
+background-repeat: no-repeat;
+}
+.swiper-container-side .swiper-wrapper {
+	width: 100%;
+}
+
+.swiper-container-side img {
+	width: 100%;
+/*width: initial;*/
+visibility: hidden;
 
 
 
+}
+.producth2 {
+	    text-transform: uppercase;
+	    line-height: initial;
+	    font-size: -webkit-xxx-large;
+}
 
+.toolpersp {
+	width: 100%;
+}
 
-
-
-
-
+.featureslist {
+	    list-style: initial;
+    margin-left: 1em;
+}
+.tokerheadline {
+	    font-size: initial;
+	    margin-bottom: 1em;
+	    font-weight: 700;
+}
+.iconsfull {
+	width: 100%;
+}
 
 
 
