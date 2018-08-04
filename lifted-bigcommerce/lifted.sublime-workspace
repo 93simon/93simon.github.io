@@ -1,0 +1,844 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"bacgou",
+				"background-image"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"anim",
+				"animation-name"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"res",
+				"restartGame"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"x",
+				"x-small"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"po",
+				"pointer-events"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"cov",
+				"covers"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"w",
+				"wrap"
+			],
+			[
+				"small",
+				"x-small"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"all",
+				"all-tools"
+			],
+			[
+				"sma",
+				"smaller"
+			],
+			[
+				"toolin",
+				"toolinc1"
+			],
+			[
+				"tool",
+				"toolinc1"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"swiper-scro",
+				"swiper-scrollbar"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"auto",
+				"autoHeight"
+			],
+			[
+				"main",
+				"main-wrapper"
+			],
+			[
+				"lar",
+				"large"
+			],
+			[
+				"Im",
+				"important"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text-an",
+				"text-align"
+			],
+			[
+				"xx",
+				"xx-large"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"margi",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 26288,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tokertool.html",
+			"settings":
+			{
+				"buffer_size": 40273,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cartridgecovers.html",
+			"settings":
+			{
+				"buffer_size": 40300,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 55035,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/nginx-1.7.11.3-Gryphon/html/webgl-3d-model-viewer-using-three.js-master/assets/map1.mtl",
+		"/D/nginx-1.7.11.3-Gryphon/html/html5up-txt/assets/derek1.mtl",
+		"/D/nginx-1.7.11.3-Gryphon/html/webgl-3d-model-viewer-using-three.js-master/assets/female-croupier-2013-03-26.mtl",
+		"/D/! !3d/!models/94-hanginglight/HangingLight/HangingLight.mtl",
+		"/D/nginx-1.7.11.3-Gryphon/html/lifted/toker-multi-tool.html",
+		"/D/nginx-1.7.11.3-Gryphon/html/html5up-txt/assets/js/main.js",
+		"/D/! !3d/!models/ba6w0ln4l2io-Low-Poly-Racing-Car-c/Low-Poly-Racing-Car.mtl",
+		"/D/!derek/2018-07-18/lifted industry_website_2018_cad_simon.mtl",
+		"/D/!derek/2018-07-18/lifted industry_website_2018_cad_simon_2.mtl",
+		"/D/nginx-1.7.11.3-Gryphon/html/webgl-3d-model-viewer-using-three.js-master/assets/toker5.mtl",
+		"/D/nginx-1.7.11.3-Gryphon/html/html5up-txt/assets/css/main.css",
+		"/C/!node/elm-battleship-master/Player.elm",
+		"/D/nginx-1.7.11.3-Gryphon/conf/nginx.conf",
+		"/D/nginx-1.7.11.3-Gryphon/html/bobs/index.html",
+		"/D/! !code/weedstrains.json",
+		"/C/Users/Thundercats/Documents/Resolume Arena 6/Shortcuts/MIDI/Mix3.xml",
+		"/D/!!apps/Resolume Arena.6.v6.0.7 + Crack[cracks4win]/Resolume Arena.6.v6.0.7.Incl.Patched With Keygen/R2R/resolume_hosts_patch.cmd",
+		"/C/Users/Thundercats/Documents/Resolume Arena 6/Shortcuts/MIDI/Default-Working.xml",
+		"/D/!!git/React-TypeScript-Template/test-setup.js",
+		"/D/!!git/React-TypeScript-Template/scripts/start.js",
+		"/D/!!git/React-TypeScript-Template/scripts/build.js",
+		"/D/!!git/React-TypeScript-Template/scripts/test.js",
+		"/D/!!git/React-TypeScript-Template/src/compontents/HelloWorld.test.tsx",
+		"/D/!!git/React-TypeScript-Template/src/compontents/HelloWorld.tsx",
+		"/D/!!apps/SONY Sound Forge Pro 10 Build 507 (patch-keygen DI) [ChingLiu]/DI v2.1 Keygen and Patch/diginsan.nfo",
+		"/C/!node/Ardon/React-TypeScript-Template/scripts/test.js",
+		"/C/!node/Ardon/React-TypeScript-Template/scripts/start.js",
+		"/C/!node/Ardon/React-TypeScript-Template/scripts/build.js",
+		"/C/Users/Thundercats/Documents/Resolume Arena 6/Shortcuts/MIDI/Mix.xml",
+		"/C/Users/Thundercats/Documents/Resolume Arena 6/Shortcuts/MIDI/Mix2.xml",
+		"/C/Users/Thundercats/Downloads/TouchDesigner_Shared-master/MATs/README.md",
+		"/C/Users/Thundercats/Downloads/TouchDesigner_Shared-master/README.md",
+		"/C/Users/Thundercats/Documents/Resolume Arena 6/Preferences/recentLayout.xml",
+		"/C/Users/Thundercats/Documents/Resolume Arena 6/Preferences/simon667-mad4b.xml",
+		"/C/Users/Thundercats/Downloads/rbvj-master/README.md",
+		"/C/!simon/!kodelife/ShaderSketches-master/README.md",
+		"/C/!simon/!kodelife/ShaderSketches-master/Lines/Lines.glsl",
+		"/C/!simon/circles2.klproj",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/mdg/wp-content/themes/html5blank-stable/single.php",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/mdg/wp-content/themes/html5blank-stable/header.php",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/mdg/wp-content/themes/html5blank-stable/style.css",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/sidebar-left.php",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/sidebar-gallery.php",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/front-page.php",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/sidebar-home.php",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/page.php",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/single.php",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/loop-header.php",
+		"/C/Users/Thundercats/Downloads/responsive.3.11-simon/loop-nav.php",
+		"/C/Users/Thundercats/Documents/Resolume Arena 5/preferences/config.xml",
+		"/D/!!apps/Octane Render 3.07 + C4D 3.07 R2 Plugins/OctaneRender_3_07_win/Activation.txt",
+		"/D/!!apps/Octane Render 3.07 with C4D Plugin Win/GFXDomain.NET.txt",
+		"/D/nginx-1.13.10/conf/nginx.conf",
+		"/D/nginx-1.13.10/html/index.html",
+		"//192.168.1.79/www/lifted/assets/css/main.css",
+		"//192.168.1.79/www/lifted/all-tools.html",
+		"//192.168.1.79/www/lifted/index.html",
+		"//192.168.1.99/www/lifted/assets/css/main.css",
+		"//192.168.1.99/www/lifted/index.html",
+		"//192.168.1.99/www/lifted/covers.html",
+		"//192.168.1.99/www/lifted/all-tools.html",
+		"//192.168.1.85/www/lifted/all-tools.html",
+		"//192.168.1.85/www/lifted/index.html",
+		"//192.168.1.85/www/lifted/assets/css/main.css",
+		"//192.168.1.85/www/lifted/covers.html",
+		"/D/!!apps/Luxion Keyshot Pro 7.1.36 + Crack - [CrackzSoft]/crackzsoft.txt",
+		"/D/!!apps/Luxion KeyShot 7 v7.1.36 macOS [dada]/Torrent_downloaded_from_Demonoid_-_www.demonoid.pw_.txt",
+		"/D/!!git/93simon.github.io/lifted/toker-tool.html",
+		"/D/!!!apps/LUXION KeyShot Network Rendering 5.1.33 (x86+x64) + Crack/LUXION KeyShot Network Rendering 5.1.33 (x64) + Crack/LUXION KeyShot Network Rendering 5.1.33 (x64) + Crack/Instructions.txt",
+		"/C/Users/Thundercats/AppData/Local/Temp/792a1b99-6b20-45c7-a911-f6513cdc515d/dav/README_WebDav.txt",
+		"/C/Users/Thundercats/AppData/Local/Google/Chrome/User Data/Default/Extensions/epejoicbhllgiimigokgjdoijnpaphdp/2.1.6_0/manifest.json",
+		"/C/Users/Thundercats/Documents/GitHub/93simon.github.io/index.html",
+		"/C/Users/Thundercats/Documents/GitHub/93simon.github.io/kinbuilt/index.html",
+		"/D/2017-11-24-backup2017/!simon/!!portfolio-fla2/data.xml",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/responsive/stockists.html",
+		"/C/Users/Thundercats/Documents/GitHub/93simon.github.io/houston_zoo.html",
+		"/C/Users/Thundercats/AppData/Local/Temp/792a1b99-6b20-45c7-a911-f6513cdc515d/dav/content/css/lifted.css",
+		"/C/Users/Thundercats/AppData/Local/Temp/792a1b99-6b20-45c7-a911-f6513cdc515d/dav/content/css/lifted2018.css",
+		"/D/!!winstonwhite/2017-12-19/twentysixteen/page-shopify.php",
+		"/D/!!winstonwhite/2017-12-19/twentysixteen/page-home.php",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/responsive/js/responsive-nav.min.js",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/responsive/css/ww-responsive.css",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/responsive/index.html",
+		"/C/Users/Thundercats/AppData/Local/Temp/a361200a-e151-46cb-8850-6a541f430837/public_html/responsive/css/responsive-nav.css",
+		"/C/Users/Thundercats/Desktop/synergy.cmd.bat",
+		"/C/Users/Thundercats/Desktop/KeelingAndGlobalTemperature-master/DataLinks.txt",
+		"/D/2017-11-29/enzo4",
+		"/D/2017-11-29/enzo3",
+		"/D/2017-11-29/enzo2",
+		"/C/Program Files/MAXON/CINEMA 4D R17/plugins/TurbulenceFD/res/description/ovolume.h"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"drop",
+			"swiper",
+			"swiper-scrollbar",
+			"swiper-slide",
+			"<a href=\"#\" class=\"image featured\">",
+			";\n",
+			"animation",
+			"container-tools",
+			"swiper-container",
+			"swiper-container-tools",
+			"meta",
+			"more i",
+			"toolsoverlay",
+			"toolsinfo",
+			"open",
+			"small",
+			"530",
+			"meta",
+			"font",
+			".box.highlight",
+			"banner",
+			"pagewwra",
+			"sectio",
+			"overl",
+			"70",
+			"contentfloat",
+			"overl",
+			"over",
+			"toolholder",
+			"content",
+			"toolviewer",
+			"buy ",
+			"scrolly",
+			"rowflex",
+			"<img src=\"http://cdn7.bigcommerce.com/s-dqgs02tk/images/stencil/1280x1280/products/11/371/cart-covers_bc_packaging_2__66245.1510048307.jpg?c=2&imbypass=on\" class=\"covimg\">\n",
+			"#titleBar",
+			"logo",
+			"title",
+			"row.gtr-200",
+			".box.highlight h2",
+			"h1",
+			"button",
+			"banner .content",
+			"ul.special",
+			".</",
+			"7B8780",
+			"b9d2ce",
+			"C1CAC5",
+			"b1ddab",
+			"main",
+			"keyboard",
+			"time",
+			"blend",
+			"24",
+			"gif",
+			"\t",
+			"1",
+			"11\t12\t13\t14\t15\t16\t17\t18\t19\t20\n",
+			"“ Folder\n",
+			"          ",
+			"+",
+			"media",
+			"640",
+			"mdg-acf",
+			"mdg-ac",
+			"mdg-post-loop",
+			"mdg-",
+			"mdg-acf-",
+			"show",
+			"add_filter",
+			"show",
+			"footer",
+			";\n",
+			"link",
+			"#mdg-sidebar ",
+			"sideba",
+			"side",
+			"footer",
+			"wid",
+			"wig",
+			"wid",
+			"h3",
+			"wp_nav_menu",
+			"html5blank_nav",
+			"blank",
+			"box",
+			"7u",
+			"opentool",
+			"1200",
+			"media",
+			"wrapper1s",
+			"fill",
+			"infobanner",
+			"infoba",
+			"69",
+			"zoom",
+			".swiper-container-tools",
+			"toolsmajor",
+			"d ",
+			"d d",
+			"features",
+			"toolinc6",
+			"toolinc",
+			"toolinc6",
+			"tool6",
+			"tool6b",
+			"header.ma",
+			"productpage\t",
+			"productpage",
+			"firstprod",
+			"91",
+			"73666",
+			"page-wrapper",
+			"X",
+			"O",
+			"0",
+			"hls",
+			"0.0",
+			"0:",
+			"getInitialState",
+			"  // ...\nBox",
+			"Box",
+			"class ",
+			"class",
+			"class Box",
+			"getInitialState",
+			"x",
+			"next"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<a href=\"#tools\" class=\"image featured\">",
+			"669999",
+			"99ccff",
+			"3399cc",
+			"66ccff",
+			",",
+			"9",
+			"8",
+			"7",
+			"6",
+			"5",
+			"4",
+			"3",
+			"2",
+			"\t",
+			"-",
+			"&  ",
+			"% ",
+			"D: ",
+			"* ",
+			"@ ",
+			"@",
+			"=) ",
+			"=)",
+			"19479A",
+			"#19479A",
+			"#3698E9",
+			"3698E9",
+			"a2baff",
+			"#6ec9d7",
+			"#79ffba",
+			"swiper-container-tools",
+			"70A088",
+			"79beff",
+			"70A088",
+			"79beff",
+			"",
+			"tokerimg1 img",
+			"tokerimg1",
+			"'Montserrat'",
+			"0px",
+			"",
+			"instagram.com/winstonwhiteclothing",
+			"Winston_White",
+			"h4",
+			"h2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1482,
+								1462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 469.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tokertool.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cartridgecovers.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3076,
+								3076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1031.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55021,
+								55021
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 50576.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.595165683357,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.elm_format":
+	{
+		"height": 130.0
+	},
+	"output.elm_type":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lifted.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
