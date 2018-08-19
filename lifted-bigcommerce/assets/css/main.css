@@ -2162,7 +2162,7 @@ input, select, textarea {
 
 	ul.meta {
 		font-size: 0.85em;
-		color: #a1aaa5;
+		/*color: #a1aaa5;*/
 		list-style: none;
 		padding-left: 0;
 	}
@@ -2477,7 +2477,7 @@ input, select, textarea {
 /* Nav */
 
 	body {
-		padding-top: 3.25em;
+		padding-top: 1.750em;
 	}
 
 	#nav {
@@ -2849,7 +2849,7 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				overflow-x: hidden;
+				/*overflow-x: hidden;*/
 			}
 
 		/* Box */
@@ -2933,8 +2933,17 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background-color: rgba(21, 38, 23, 0.08);
+				background-color: rgba(0, 0, 0, 0.98);
 				background-image: url("images/overlay.png");
+			}
+
+			#titleBar a {
+				color: white;
+				text-decoration: none;
+				font-size: small;
+			}
+			#titleBar a:hover {
+				color: #3399cc;
 			}
 
 				#titleBar .title {
@@ -3177,7 +3186,7 @@ a.button2 {
 		/* Box */
 
 			.box.highlight h2 {
-				font-size: xx-large;
+				font-size: x-large;
 				margin: auto;
 			}
 
@@ -3394,7 +3403,7 @@ h2 b {
 }
 
 .bodyproduct {
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 .bodyproduct .side  {
 	width: 100%;
@@ -3658,7 +3667,7 @@ text-shadow: 0 3px 0 #999999, 0 15px 5px rgba(0,0,0,0.1), 10px 20px 5px rgba(0,0
 
 .script {
   font-family: "Seaweed Script";
-  color: #3399cc;
+  color: #08CE5E;
   text-align: center;
   /*float: left;*/
   font-size: xx-large;
@@ -3821,6 +3830,31 @@ zoom: 1.25;*/
 			display: inline-flex;
 		}
 
+
+.bodyproduct .boxrib {
+	margin-bottom: 4em;
+}
+
+.boxrib {
+  width: 100%; height: auto;
+  position: relative;
+  border: 1px solid #fff;
+  /*background: #EEE;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 360px) {
 body.homepage #toolsinfo { display: none; }
 }
@@ -3847,18 +3881,25 @@ body.homepage #toolsinfo { display: none; }
 		}	
 
 		#main a.button2  {
-			    display: contents;
+			    display: unset;
 		}
 		
 		.boxrib {
 		/*	display: none;*/
+			    margin-bottom: 0em !important;
 		}
 
 		.anismallsize {
 			margin: auto;
+			display: none;
 		}
-
+		.scriptprice {
+			margin-top: 1em;
 		}
+		.tokerhead, .toollisttiles {
+			display: none !important;
+		}
+}
 
 
 
@@ -3884,16 +3925,6 @@ body.homepage #toolsinfo { display: none; }
 	overflow: hidden;
 }
 
-.bodyproduct .boxrib {
-	margin-bottom: 4em;
-}
-
-.boxrib {
-  width: 100%; height: auto;
-  position: relative;
-  border: 1px solid #fff;
-  /*background: #EEE;*/
-}
 .ribbon {
   position: absolute;
   right: -5px; top: -5px;
@@ -4257,8 +4288,8 @@ h3.major {
 
 .swiper-pagination-bullet {
 	margin-right: 1em;
-	width: 18px !important;
-    height: 18px !important;
+	width: 14px !important;
+    height: 14px !important;
 
 }
 
@@ -4475,10 +4506,19 @@ visibility: hidden;
 #logo {
 	display: none;
 }
-.whitean1 {
+
+.freezeframe {
 	cursor: pointer;
 }
 
-
-
+.mainherotool h3 {
+	font-size: smaller;
+}
+.mainherotool .productsub2 .icon {
+	padding-right: 0;
+}
+.mainherotool .productsub2 {
+    font-size: xx-small;
+    line-height: initial;
+}
 

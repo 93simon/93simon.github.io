@@ -46,7 +46,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + 'Lifted Industry' + '</span>' +
+					'<span class="title">' + '<a href="index.html">Lifted Industry</a>' + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
