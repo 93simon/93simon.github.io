@@ -6648,7 +6648,7 @@ header {
 }
 
 .team-blocks {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .team-images {
@@ -6694,14 +6694,10 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   color: white;
-  padding: calc(1%) calc(5%) 0 calc(4%) ;
+  padding: calc(1%) calc(5%) calc(1%) calc(4%);
 pointer-events: none;
 }
-.cell-name h2 {
-  line-height: initial;
-    font-size: inherit;
-    margin-bottom: 0;
-}
+
 .cell-name h4 {
  line-height: initial;
     font-size: xx-small;
@@ -6710,11 +6706,34 @@ pointer-events: none;
   margin-top: 1em;
 }
 
+  .cell-name h2 {
+    font-size: x-small;
+    margin-bottom: 0;
+  }
+  .cell-name h4 {
+    display: none;
+  }
+.ceo-blocks {
+  margin-top: 5px;
+}
 
 @media print, screen and (min-width: 40em) {
   .cell-img-medium {
     margin-top: 0em;
   }
+    .cell-name h4 {
+    display: block;
+    margin-bottom: calc(2%);
+  }
+.cell-name h2 {
+  line-height: initial;
+    font-size: inherit;
+    margin-bottom: 0;
+  }
+  .ceo-blocks {
+    margin-top: 25px;
+  }
+
 }
 
 
