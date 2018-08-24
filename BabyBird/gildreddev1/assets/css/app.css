@@ -6665,6 +6665,9 @@ header {
 .cell-img {
   position: relative;
 }
+.cell-img img {
+  width: 100%;
+}
 
 .grid-ceos .cell-name {
   position: absolute;
@@ -6687,7 +6690,7 @@ header {
   position: absolute;
   margin: auto;
   bottom: 0px;
-  max-width: 311px;
+  /*max-width: 311px;*/
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   color: white;
