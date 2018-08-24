@@ -6683,7 +6683,7 @@ header {
 .grid-ceos .cell-name h2 {
  line-height: initial;
     /*font-size: x-large;*/
-    padding: 0 calc(5%) calc(1%) calc(0.15%) ;
+    padding: 0 calc(5%) calc(2.5%) calc(0.15%) ;
 }
 
 .cell-name {
