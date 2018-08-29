@@ -4620,7 +4620,8 @@ html.is-reveal-open body {
   left: 0;
   z-index: 1005;
   display: none;
-  background-color: rgba(10, 10, 10, 0.45);
+  background-color: rgba(10, 10, 10, 1.0);
+  cursor: pointer;
   overflow-y: scroll; }
 
 .reveal {
