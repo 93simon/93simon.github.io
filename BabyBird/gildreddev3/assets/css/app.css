@@ -4623,7 +4623,6 @@ html.is-reveal-open body {
   background-color: rgba(10, 10, 10, 1.0);
   cursor: pointer;
   overflow-y: scroll; }
-  
 
 .reveal {
   z-index: 1006;
@@ -6428,6 +6427,46 @@ header {
           justify-content: left;
   border-bottom: 3px solid #000; }
 
+
+.development-alpineridge {
+  background: url("../img/development/alpineridge-main.png") 50% no-repeat;
+  background-size: cover;
+  height: 35vh;
+  text-align: left;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  border-bottom: 3px solid #000; }
+
+.development-ramonahighlands {
+  background: url("../img/development/ramonahighlands-main.png") 50% no-repeat;
+  background-size: cover;
+  height: 35vh;
+  text-align: left;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  border-bottom: 3px solid #000; }
+
+
+
+
+
+
+
+
 .hero-section-pages-history {
   background: url("../img/history/history-masthead.png") 50% no-repeat;
   background-size: cover;
@@ -6491,6 +6530,13 @@ header {
       -ms-flex-pack: left;
           justify-content: left;
   border-bottom: 3px solid #000; }
+
+.hero-section-text h2 {
+  font-size: xx-large;
+}
+.hero-section-text h4 {
+  font-size: large;
+}
 
 .hero-section-pages .hero-section-text {
   width: 50vw;
@@ -6719,6 +6765,27 @@ pointer-events: none;
   margin-top: 5px;
 }
 
+
+
+
+
+
+
+
+
+.footer-links-container {
+  font-size: x-small;
+
+}
+
+
+
+
+
+
+
+
+
 @media print, screen and (min-width: 40em) {
   .cell-img-medium {
     margin-top: 0em;
@@ -6735,6 +6802,11 @@ pointer-events: none;
   .ceo-blocks {
     margin-top: 25px;
   }
+
+  .footer-links-container {
+    font-size: smaller;
+ }
+
 
 }
 
@@ -6753,7 +6825,8 @@ pointer-events: none;
   background-color: #504f54;
   min-height: 60px;
   color: white;
-  visibility: hidden;
+  /*visibility: hidden;*/
+      margin-top: 2em;
 }
 .footer-texts {
   padding: 1em 0 1em 0;
@@ -6774,6 +6847,12 @@ pointer-events: none;
   color: white;
   font-size: smaller;
   text-transform: capitalize;
+}
+.footer-social {
+  line-height: 60px;
+}
+.footer-social img {
+  padding-right: 0.25em;
 }
 .white-logo {
   fill: #ffffff;
@@ -6908,6 +6987,29 @@ pointer-events: none;
 header {
     border-bottom: 1px solid #404883 !important;
 }
+
+.orbit-container h2 {
+    font-size: xx-large;
+}
+.marketing-block1 img, .marketing-block2 img {
+  visibility: hidden;
+}
+
+.marketing-block1 {
+  background: url('../img/gildred_office_ocean_point.png');
+}
+.marketing-block2 {
+  background: url('../img/home_sunset.png');
+}
+
+.marketing-block1, .marketing-block2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
 
 
 
