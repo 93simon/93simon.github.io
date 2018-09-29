@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-thepointsb.com	TRUE	/	FALSE	1999999999	et_pb_ab_view_page_28351013980733	f9a99f34034c8ee7a54834e66da98e11
-thepointsb.com	TRUE	/	FALSE	1999999999	PHPSESSID	djkooq2vherqrr88vcsm6e8632
-

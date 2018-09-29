@@ -3021,7 +3021,7 @@
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: cover;
+			background-size: 50%;
 			border-radius: 0;
 			display: block;
 			position: relative;
