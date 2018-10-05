@@ -37,7 +37,7 @@ body {
     display: flex;
     -webkit-flex-flow: wrap column;
     flex-flow: wrap column;
-    max-height: 250px;
+    max-height: 220px;
 }
 
 .toollisttiles {
@@ -334,10 +334,6 @@ width: 9%;
 }
 
 
-.bricks {
-    border-radius: 16px;
-    padding: 1em;
-}
 
 .buttonbuy {
     max-width: 150px;   
@@ -456,22 +452,57 @@ width: 9%;
         width: 100%;
     }
 
+  .bricks {
+ 
+ 
+    height: 80%;
+    object-fit: cover;
+    width: 100%;
+    object-position: initial;
+    }
+
+
+.tokerthrees h1 {
+    font-size: smaller;
+}
+
+.tokerthrees h1 {
+    font-size: smaller;
+}
+    .tokerholder  h1 {
+        text-align: left;
+    }
+
 @media screen and (max-width: 640px) {
     .swiper-wrapper {
         padding: 0;
     }
 
     .tokerholder  h1 {
-        font-size: medium;
+        /*font-size: medium;*/
+        text-align: left;
     }
         .h-screen-hero {
         height: 30vh;
+            zoom: 0.7;
     }
     .wrapper1s ul {
-            max-height: 250px;
+            max-height: 350px;
     }
     #gmap, .h-screen-grey { display: none; }
+        .learnflex {
+        display: none;
+    }
+/*  .bricks {
+     border-radius: 16px;
+    padding: 1em;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    object-position: 0 -20vh;
+    }*/
 }
+
 
 @media screen and (min-width: 800px) {
   .row {
@@ -492,12 +523,27 @@ width: 9%;
 
 
 }
+
+
+@media (min-width: 992px) {
+      .bricks {
+    object-fit: cover;
+    object-position: right;
+    height: 66%;
+    width: 100%;
+    }
+
+}
+
 /* Style */
 @media screen and (min-width: 1280px) {
   .swiper-container h3 {
     margin: 1em 4px;
     font-size: large;
     }
+
+
+
 
 }
 /*body {
@@ -529,6 +575,12 @@ h2 {
   text-align: center;
 }
 
+.bricks {
+ 
+ 
+    height: 81vh;
+
+}
 
 
 
@@ -598,7 +650,7 @@ h2 {
     box-shadow: 10px 10px 5px #000;
 
         width: 40%;
-    margin: 20% auto;
+    margin: 10% auto;
     line-height: 3em;
 
     /* -moz-border-radius: 50px 50px / 50px 50px; */
@@ -651,6 +703,64 @@ button:active, button:focus {
 .indexcontainer {
     padding-bottom: 0;
 }
+
+
+
+
+.toollisttiles .fas.fa-3x:hover {
+    /*font-size: 2.45em;*/
+    opacity: 0.5;
+}
+
+#gmapgif {
+width: 100%;
+     height: initial;
+    text-align: center;
+}
+
+.stockistsbtn {
+    min-height: 30vh;
+    background-color: #8795a1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
