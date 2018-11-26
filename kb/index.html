@@ -1,0 +1,335 @@
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ken-burns-slideshow Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.1.0/webcomponents-loader.js"></script>
+
+    <style>
+        body {
+            background: #000;
+            padding: 0;
+            margin: 0;
+        }
+
+        article, footer {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+            /*max-width: 800px;*/
+            /*padding: 10px;*/
+            margin: auto;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.5s;
+        }
+
+        a:hover {
+            color: #444;
+        }
+
+        ken-burns-carousel {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+        }
+
+        ken-burns-carousel#demo5 {
+            --img-filter: grayscale(100%);
+        }
+
+        h2 {
+            margin-top: 64px;
+            font-size: 1.3em;
+        }
+
+        .demo {
+            position: relative;
+            height: 0;
+            padding-bottom: 66.6%;
+        }
+
+        pre code {
+            padding: 10px 15px !important;
+        }
+
+        ken-burns-carousel, pre {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+    </style>
+</head>
+<body>
+<article>
+<!--     <h1>Ken Burns Carousel</h1>
+    <p>A bare and extremely light web component that displays a set of images with a ken burns effect.</p>
+
+    <p>
+        <a href="https://github.com/Festify/ken-burns-carousel">View on GitHub</a> |
+        <a href="https://www.npmjs.com/package/ken-burns-carousel">View on NPM</a>
+    </p>
+
+    <h2>Default Configuration With Five Images</h2>
+    <p>
+        This carousel can be easily used by placing a <code>ken-burns-carousel</code> anywhere in your body. By default, slides are set to 20s with a fade of 2.5s.
+    </p>
+    <div class="example">
+        <div class="demo">
+            <ken-burns-carousel id="demo1"></ken-burns-carousel>
+        </div>
+
+        <pre><code class="html">&lt;ken-burns-carousel
+    images=&quot;https://source.unsplash.com/Qh9Swf_8DyA
+        https://source.unsplash.com/O453M2Liufs
+        https://source.unsplash.com/1OtUkD_8svc
+        https://source.unsplash.com/gIgciC_WKnY
+        https://source.unsplash.com/LCguCXU3Ffk&quot;&gt;
+&lt;/ken-burns-carousel&gt;</code></pre>
+    </div> -->
+
+    <!-- <h2>Slide and Fade Duration</h2>
+    <p>The slide and fade durations can be easily modified using HTML attributes.</p> -->
+    <div class="example">
+        <div class="demo">
+            <ken-burns-carousel id="demo2" fade-duration="4000" slide-duration="10000"></ken-burns-carousel>
+        </div>
+
+       <!--  <pre><code class="html">&lt;ken-burns-carousel
+    fade-duration="1000"
+    slide-duration="5000"
+    images=&quot;https://source.unsplash.com/Qh9Swf_8DyA
+        https://source.unsplash.com/O453M2Liufs
+        https://source.unsplash.com/1OtUkD_8svc
+        https://source.unsplash.com/gIgciC_WKnY
+        https://source.unsplash.com/LCguCXU3Ffk&quot;&gt;
+&lt;/ken-burns-carousel&gt;</code></pre> -->
+    </div>
+<!-- 
+    <h2>Animation Direction</h2>
+    <p>
+        By setting the animation direction to either <code>normal</code>, <code>reverse</code> or <code>random</code>,
+        you can decide if images should always zoom in, out or randomly decide.
+    </p>
+    <div class="example">
+        <div class="demo">
+            <ken-burns-carousel id="demo3" fade-duration="2000" slide-duration="5000" animation-direction="normal"></ken-burns-carousel>
+        </div>
+
+        <pre><code class="html">&lt;ken-burns-carousel
+    fade-duration="4000"
+    slide-duration="10000"
+    animation-direction="normal"
+    images=&quot;https://source.unsplash.com/Qh9Swf_8DyA
+        https://source.unsplash.com/O453M2Liufs
+        https://source.unsplash.com/1OtUkD_8svc
+        https://source.unsplash.com/gIgciC_WKnY
+        https://source.unsplash.com/LCguCXU3Ffk&quot;&gt;
+&lt;/ken-burns-carousel&gt;</code></pre>
+    </div>
+
+    <h2>Animation Names</h2>
+    <p>
+        You can choose between different ken burns styles by setting the <code>animation-names</code> attribute.
+        You can find a list of all available styles
+        <a href="https://github.com/Festify/ken-burns-carousel/blob/master/src/element.ts#L44-L88">in the code</a>.
+    </p>
+    <div class="example">
+        <div class="demo">
+            <ken-burns-carousel id="demo4" animation-names="ken-burns-center"></ken-burns-carousel>
+        </div>
+
+        <pre><code class="html">&lt;ken-burns-carousel
+    animation-names="ken-burns-center"
+    images=&quot;https://source.unsplash.com/Qh9Swf_8DyA
+        https://source.unsplash.com/O453M2Liufs
+        https://source.unsplash.com/1OtUkD_8svc
+        https://source.unsplash.com/gIgciC_WKnY
+        https://source.unsplash.com/LCguCXU3Ffk&quot;&gt;
+&lt;/ken-burns-carousel&gt;</code></pre>
+    </div>
+
+    <h2>Filters</h2>
+    <p>
+        By setting the <code>--img-filter</code> variable in CSS, you can apply a custom filter to every image.
+    </p>
+    <div class="example">
+        <div class="demo">
+            <ken-burns-carousel id="demo5"></ken-burns-carousel>
+        </div>
+
+        <pre><code class="html">&lt;style&gt;
+    ken-burns-carousel {
+        --img-filter: grayscale(100%);
+    }
+&lt;/style&gt;
+
+&lt;ken-burns-carousel
+    images=&quot;https://source.unsplash.com/Qh9Swf_8DyA
+        https://source.unsplash.com/O453M2Liufs
+        https://source.unsplash.com/1OtUkD_8svc
+        https://source.unsplash.com/gIgciC_WKnY
+        https://source.unsplash.com/LCguCXU3Ffk&quot;&gt;
+&lt;/ken-burns-carousel&gt;</code></pre>
+    </div> -->
+</article>
+<!-- 
+<footer>
+    <p>Made with ❤️ by <a href="https://github.com/Festify" target="_blank">Team Festify</a> in Aachen, Germany</p>
+</footer> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github-gist.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+
+    window.addEventListener('WebComponentsReady', function(e) {
+        const kenBurnsCarousel = document.createElement('script');
+        kenBurnsCarousel.src = 'ken-burns-carousel.min.js';
+        document.head.appendChild(kenBurnsCarousel);
+
+        kenBurnsCarousel.onload = () => {
+            // Feed demo with sample images
+            const sampleImages = [
+
+            
+// 'images/Chips%20and%20Dip_1.jpg',
+// 'images/Chips%20and%20Dip_2.jpg',
+// 'images/Chorizo%20Skillet%20Queso.jpg',
+// 'images/IMG_3762.JPG',
+// 'images/rib%20tips%20&%20cheesey%20smash%20.jpg',
+// 'images/rib%20tips_%20cheesy%20sm.jpg',
+// 'images/Rib%20Tips_1.jpg',
+// 'images/Rib%20Tips_2.jpg',
+// 'images/Rib%20Tips_3.jpg',
+// 'images/Rib%20Tips_4.jpg',
+// 'images/Rib%20Tips_5.jpg',
+// 'images/Rib%20Tips_6.jpg',
+// 'images/Rib%20Tips_7.jpg'
+
+         'gildred/1-CROP-OUT-GARBAGE_GildredCompanies-Architecture-JDixxPhoto-286.jpg',
+'gildred/1-GildredCompanies-1235ActivityVista-JDixxPhoto-19.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-125.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-15.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-164.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-191.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-228.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-251.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-289.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-357.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-365.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-400.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-439.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-488.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-510.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-554.jpg',
+'gildred/1-GildredCompanies-Architecture-JDixxPhoto-92.jpg',
+'gildred/2-GildredCompanies-1235ActivityVista-JDixxPhoto-55.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-104.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-145.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-167.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-182.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-216.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-257-2.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-257.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-272.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-307.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-326.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-369.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-402.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-440.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-494.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-519.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-541.jpg',
+'gildred/2-GildredCompanies-Architecture-JDixxPhoto-74.jpg',
+'gildred/3-GildredCompanies-1235ActivityVista-JDixxPhoto-26.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-100.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-135.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-155.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-185.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-212.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-250.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-287.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-297.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-331.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-380.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-408.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-444.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-501.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-512.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-572.jpg',
+'gildred/3-GildredCompanies-Architecture-JDixxPhoto-87.jpg',
+'gildred/4-GildredCompanies-1235ActivityVista-JDixxPhoto-67.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-1.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-134.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-152.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-200.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-233.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-263.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-276.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-303.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-333.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-383.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-397.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-462.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-492.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-523.jpg',
+'gildred/4-GildredCompanies-Architecture-JDixxPhoto-556.jpg',
+'gildred/5-GildredCompanies-1235ActivityVista-JDixxPhoto-76.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-158.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-208.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-240.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-247.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-284.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-311.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-32.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-339.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-387.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-471.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-497.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-513.jpg',
+'gildred/5-GildredCompanies-Architecture-JDixxPhoto-547.jpg',
+'gildred/6-GildredCompanies-1235ActivityVista-JDixxPhoto-61-(1).jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-180.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-254.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-271.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-294.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-359.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-478.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-514.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-551.jpg',
+'gildred/6-GildredCompanies-Architecture-JDixxPhoto-68.jpg',
+'gildred/7-GildredCompanies-Architecture-JDixxPhoto-22.jpg',
+'gildred/8-GildredCompanies-Architecture-JDixxPhoto-25.jpg',
+'gildred/9-GildredCompanies-Architecture-JDixxPhoto-55.jpg'
+
+
+                // 'https://source.unsplash.com/Qh9Swf_8DyA',
+                // 'https://source.unsplash.com/O453M2Liufs',
+                // 'https://source.unsplash.com/1OtUkD_8svc',
+                // 'https://source.unsplash.com/gIgciC_WKnY',
+                // 'https://source.unsplash.com/LCguCXU3Ffk',
+            ];
+
+
+
+            sampleImages.sort(function() { return 0.5 - Math.random() });
+
+            for (const demo of Array.from(document.getElementsByTagName('ken-burns-carousel'))) {
+                demo.images = (sampleImages);
+            }
+        }
+    });
+</script>
+</body>
+</html>
