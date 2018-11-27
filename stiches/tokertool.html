@@ -29,12 +29,12 @@
 
     <nav class="font-sans bg-white text-center flex justify-between my-4 mx-auto container overflow-hidden">
       <a href="index.html" class="block text-left">
-        <img src="logo1.gif" class="h-10 sm:h-10 " alt="logo">
+        <img src="logo1.gif" class="h-10 sm:h-10 lilogo " alt="logo">
       </a>
       <ul class="text-sm text-grey-dark list-reset flex items-center">
         <li><a href="products.html" class="inline-block py-2 px-3 text-grey-darkest hover:text-grey-dark no-underline">Products</a></li>
         <!-- <li class="pr-2"><a href="faqs.html" class="inline-block py-2 px-3 text-grey-darkest hover:text-grey-dark no-underline">FAQs</a></li> -->
-        <li class="pr-2"><a href="stockists.html" class="inline-block py-2 px-3 text-grey-darkest hover:text-grey-dark no-underline">Stockists</a></li>
+        <!-- <li class="pr-2"><a href="stockists.html" class="inline-block py-2 px-3 text-grey-darkest hover:text-grey-dark no-underline">Stockists</a></li> -->
         <!-- <li class="pl-2 border-l"><a href="#" class="inline-block py-2 px-3 text-grey-darkest hover:text-grey-dark no-underline">Log In</a></li> -->
         <button class="bg-black hover:bg-grey-darker text-white ml-4 py-2 px-3">
         Cart
@@ -179,14 +179,14 @@
 
  -->
 <a name="faq">
-<section class="my-8 font-sans container max-w-xl m-auto flex flex-col md:flex-row sm:items-center md:my-0">
+<section class="my-8 font-sans container max-w-xl m-auto flex flex-col md:flex-row sm:items-center md:my-0 tooltools">
   <div class="w-full md:w-1/2 flex flex-col justify-center items-start px-6 py-0 md:py-8 md:px-8 lg:items-start">
     <label for="tagline" class="uppercase tracking-wide text-grey-dark font-bold">FAQ</label>
     <h1 class="mt-2 mb-4 font-medium text-left">10 essential tools</h1>
     <p class="leading-normal mb-4 text-grey-dark">This rugged multi-tool aids in rolling, dabbing, opening bottles, cleaning, scraping, trimming, packing and countless other tasks for the modern smoker. Our tool allows smokers of all lifestyles one simple tool as an everyday carry.</p>
   </div>
   <div class="w-full md:w-1/2 flex flex-row md:flex-col justify-between md:justify-center items-center p-2 md:p-8 items-center md:items-start">
-    <div class="flex items-center sm:border-r md:border-b md:border-r-0 p-4 w-1/2 md:w-auto">
+    <div class="flex items-center sm:border-r md:border-b md:border-r-0 p-8 w-1/2 md:w-auto">
       <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt="Avatar of Jonathan Reinink"></div>
       <div class="">
         <h2 class="text-black font-medium text-left">Longevity, rugged use, for life</h2>
@@ -194,7 +194,7 @@
 </p>
       </div>
     </div>
-    <div class="flex items-center p-4 w-1/2 md:w-auto">
+    <div class="flex items-top p-8 w-1/2 md:w-auto">
       <div class="w-14 h-14 rounded-full mr-4 bg-grey-light" alt="Avatar of Jonathan Reinink"></div>
       <div class="">
         <h2 class="text-black font-medium text-left">Smoke safely.</h2>
@@ -206,7 +206,7 @@
 
 
 
-<section class="font-sans h-screen w-full bg-cover text-center flex flex-col items-center justify-center h-screen-grey" style="background:url(greyinfo.png) no-repeat center; ">  
+<section class="font-sans h-screen w-full bg-cover text-center flex flex-col items-center justify-center h-screen-grey greyinfo" style="background:url(greyinfo.png) no-repeat center; ">  
 
   <label for="tagline" class="uppercase tracking-extrawide text-white text-xs font-hairline mt-8"></label>
   <h3 class="text-white mx-auto max-w-sm mt-4 font-normal text-2xl leading-normal"></h3>
@@ -346,15 +346,23 @@
 <br>
   <br><br>
 
-<section class="font-sans h-screen w-full bg-cover text-center flex flex-col items-center justify-center" style="background:url() no-repeat center; box-shadow: none;">  
+<section class="font-sans h-screen h-screen-tilt w-full bg-cover text-center flex flex-col items-center justify-center" style="background:url() no-repeat center; box-shadow: none;">  
   <a href="#" class="playbutton" data-featherlight="<video preload='auto' loop='true' autoplay src='rotate3.mp4' class='videoloop'></video>">
+
     <div class="text-black rounded-full h-16 w-0 flex items-center justify-center mb-8" style="margin: auto;" >
       <div data-tilt class="tiltholder ">
     <img src="wires1.png" class="wirestilt py-16 ">
     </div>
+
     <!-- <i class="fas fa-play ml-1"></i> -->
     
   </div>
+      <div class="bg-white text-black rounded-full h-16 w-16 flex items-center justify-center mb-8 plybtn" style="margin: auto;">
+    
+    <i class="fas fa-play ml-1"></i>
+    
+  </div>
+
   </a>
 
   <label for="tagline" class="uppercase tracking-extrawide text-white text-xs font-hairline mt-8 zindex1">SEE IT IN 3D</label>
@@ -512,13 +520,6 @@
 </section>
 
 
-<!-- <section class="font-sans h-screen w-full bg-cover text-center flex flex-col items-center justify-center h-screen-product" style="background:url(bricks3.jpg) no-repeat center;">   -->
-<section class="font-sans h-screen w-full bg-cover text-center flex flex-col items-center justify-center h-screen-product h-screen-to " style="background:url(grids4.jpg) no-repeat center;">    
-  
-  <!-- <div class="bg-white text-black rounded-full h-16 w-16 flex items-center justify-center mb-8"><i class="fas fa-toolbox ml-1 fa-2x"></i></div> -->
-  <!-- <label for="tagline" class="uppercase tracking-extrawide text-white text-xs font-hairline mt-8">10-in-1 Multi Tool</label>
-  <h3 class="text-white mx-auto max-w-sm mt-4 font-normal text-2xl leading-normal">CLICK HERE</h3> -->
-</section>
 
 
 
@@ -564,7 +565,7 @@
 </footer>
 
 <script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> -->
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -681,11 +682,11 @@
       $("<style>.swiper-pagination { position: relative; }</style>" ).appendTo( "head" );
 
 
-      $('.tiltholder').tilt({
-          speed: 7000,
-          maxTilt: 4,
-          // scale: 1,
-      })
+      // $('.tiltholder').tilt({
+      //     speed: 7000,
+      //     maxTilt: 4,
+      //     // scale: 1,
+      // })
 
   </script>
 

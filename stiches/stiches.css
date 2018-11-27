@@ -267,7 +267,7 @@ hr {
 
 
  .p-8 {
-    padding: 3.0em;
+/*    padding: 6.0em;*/
  }
  .tokertexts {
     padding-bottom: 0;
@@ -492,10 +492,11 @@ width: 9%;
         cursor: pointer;
     }
     .bricksholder {
-        background: url('brick2.jpg');
-        background-size: cover;
-        background-position: right center;
-        cursor: pointer;
+        background: url('images/covertran1.png');
+    background-size: contain;
+    background-position: right center;
+    cursor: pointer;
+    background-repeat: no-repeat;
 
     }
 
@@ -538,6 +539,17 @@ width: 9%;
         .wrapper1s ul {
             max-height: 480px;
     }
+
+
+    .items-center {
+        /*align-items: initial;*/
+        }
+
+        .greyinfo {
+            display: none;
+        }
+
+
 }
 
 
@@ -547,6 +559,9 @@ width: 9%;
     height: 81vh;
     max-height: 240px !important;
     }
+
+
+
 }
 @media screen and (max-width: 480px) {
     .bricks {
@@ -590,7 +605,7 @@ width: 9%;
         text-align: left;
     }
         .h-screen-hero {
-        height: 40vh;
+       /* height: 40vh;*/
             /*zoom: 0.7;*/
     }
     .wrapper1s ul {
@@ -750,7 +765,7 @@ h2 {
     margin: auto;
 
     max-height: 480px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center !important;
 
 
@@ -870,6 +885,7 @@ content: "";
 .stockistsbtn {
     min-height: 30vh;
     background-color: #fff;
+
 }
 
 
@@ -921,7 +937,7 @@ p.leading-normal {
 .wirestilt {
 	width: initial;
 	max-width: initial !important;
-	zoom: 0.8;
+	/*zoom: 1;*/
 	/*min-height: 50vh;*/
 	/*transform-style: preserve-3d;*/
 }
@@ -964,21 +980,55 @@ p.leading-normal {
 
 
 
+.cc .playbutton .bg-white {
+    background-color: black;
+}
+
+
+.cc .openvideo {
+    color: black;
+}
+
+.cc .playbutton .text-black {
+    color: white;
+}
+.handhero {
+        background: url(http://liftedindustry.com/content/images/header8.jpg) ;
+    background-size: contain;
+    max-height: 36em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+.li .learnmore {
+    color: white;
+}
+
+.lilogo {
+    height: auto;
+}
+
+.plybtn {
+    z-index: 1111;
+    position: relative;
+}
 
 
 
+.h-screen-tilt  {
+    max-height: 80vh;
+}
 
+.swiper-container {
+    padding-bottom: 4em;
+}
 
-
-
-
-
-
-
-
-
-
-
+.tooltools {
+    border-bottom: 1px solid;
+    border-color: #dae1e7;
+}
 
 
 
