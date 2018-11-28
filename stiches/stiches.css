@@ -4,7 +4,7 @@
 
 body {
     overflow-x: hidden;
-    min-width: 360px;
+    min-width: 320px;
 }
 .py-16 {
         padding-top: 4rem;
@@ -13,7 +13,7 @@ body {
 
     .h-screen {
       height: 60vh;
-      box-shadow: inset 0em 1em 6em rgba(0,0,0,0.25);
+      /*box-shadow: inset 0em 1em 6em rgba(0,0,0,0.25);*/
     }
     .tokeritems {
     	font-size: smaller;
@@ -114,7 +114,7 @@ float: left;
     /*height: 100%;
     background-position: center !important;
     background-size: contain !important;*/
-    height: 80vh;
+    max-height: 80vh;
     background: url(wires02.jpg);
     /* background-attachment: fixed !important; */
     background-position: center;
@@ -134,7 +134,7 @@ float: left;
 
 
 .h-screen-hero {
-    height: 60vh;
+    max-height: 60vh;
     background-size: cover !important;
 }
 
@@ -548,7 +548,12 @@ width: 9%;
         .greyinfo {
             display: none;
         }
-
+ .swiper-wrapper {
+        padding: 0;
+    }
+.hero-lifted, .tokerclick label {
+    visibility: hidden;
+}
 
 }
 
@@ -1031,7 +1036,9 @@ p.leading-normal {
 }
 
 
-
+.cartvid {
+    background-size: cover  !important;
+}
 
 
 
