@@ -1711,7 +1711,7 @@
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.075em;
 	}
 
 		h1.major {
@@ -1739,7 +1739,7 @@
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.275em;
 	}
 
 	h3 {
@@ -2718,8 +2718,9 @@
 
 			ul.actions li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0 1em 1em 0;
 				vertical-align: middle;
+				font-size: 13px;
 			}
 
 				ul.actions li:last-child {
@@ -3021,11 +3022,11 @@
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: 50%;
+			background-size: 75%;
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 10em;
 		}
 
 			.spotlights > section > .image img {
@@ -4078,7 +4079,17 @@ h1.name, .name {
 
 
 
+h2 a {
+	color: lightgreen;
+}
 
 
 
-
+.innerDev {
+	padding:  2em 2em 1em 2em;
+}
+.lastWork h4 {
+	margin-bottom: 0;
+	font-size: small;
+	color: white;
+}
